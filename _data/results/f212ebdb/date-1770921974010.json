@@ -1,0 +1,66 @@
+{
+  "url": "https://environmentalbondact.ny.gov/",
+  "requestedUrl": "https://environmentalbondact.ny.gov/",
+  "timestamp": 1770922004621,
+  "ranks": {
+    "hundos": 6,
+    "performance": 7,
+    "accessibility": 2,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.28,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 324
+  },
+  "firstContentfulPaint": 13316.604500000001,
+  "speedIndex": 13789.027429040285,
+  "largestContentfulPaint": 29874.1045,
+  "totalBlockingTime": 727,
+  "cumulativeLayoutShift": 0.19457257403176187,
+  "timeToInteractive": 30331.604500000005,
+  "maxPotentialFirstInputDelay": 352,
+  "timeToFirstByte": 186.69400000000002,
+  "weight": {
+    "summary": "113 requests • 5.7 MiB",
+    "total": 5989936,
+    "image": 2961551,
+    "imageCount": 9,
+    "script": 2636550,
+    "scriptCount": 62,
+    "document": 35392,
+    "font": 48856,
+    "fontCount": 3,
+    "stylesheet": 156709,
+    "stylesheetCount": 5,
+    "thirdParty": 2991909,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 7,
+    "+weight.total": 1,
+    "-weight.document": 6,
+    "+weight.document": 2,
+    "-weight.script": 6,
+    "+weight.script": 1,
+    "-weight.image": 7,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 7,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 7
+  },
+  "axe": {
+    "passes": 614,
+    "violations": 0
+  }
+}
