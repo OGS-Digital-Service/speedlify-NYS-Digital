@@ -49,10 +49,10 @@
     ],
     "vertical": "sample"
   },
-  "https://environmentalbondact.ny.gov/": {
-    "requestedUrl": "https://environmentalbondact.ny.gov/",
-    "url": "https://environmentalbondact.ny.gov/",
-    "hash": "f212ebdb",
+  "https://digital-service-analytics.netlify.app/": {
+    "requestedUrl": "https://digital-service-analytics.netlify.app/",
+    "url": "https://digital-service-analytics.netlify.app/",
+    "hash": "edbae06e",
     "categories": [
       "sample",
       "ssg",
@@ -60,10 +60,10 @@
     ],
     "vertical": "sample"
   },
-  "https://digital-service-analytics.netlify.app/": {
-    "requestedUrl": "https://digital-service-analytics.netlify.app/",
-    "url": "https://digital-service-analytics.netlify.app/",
-    "hash": "edbae06e",
+  "https://environmentalbondact.ny.gov/": {
+    "requestedUrl": "https://environmentalbondact.ny.gov/",
+    "url": "https://environmentalbondact.ny.gov/",
+    "hash": "f212ebdb",
     "categories": [
       "sample",
       "ssg",
