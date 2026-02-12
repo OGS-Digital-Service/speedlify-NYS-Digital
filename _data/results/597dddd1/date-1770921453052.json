@@ -1,0 +1,66 @@
+{
+  "url": "https://www.governor.ny.gov/",
+  "requestedUrl": "https://www.governor.ny.gov/",
+  "timestamp": 1770921475284,
+  "ranks": {
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 6,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.74,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 357
+  },
+  "firstContentfulPaint": 1587.8204999999998,
+  "speedIndex": 1587.8204999999998,
+  "largestContentfulPaint": 9258.983999999997,
+  "totalBlockingTime": 70,
+  "cumulativeLayoutShift": 0.00006184746275013676,
+  "timeToInteractive": 9266.732649999998,
+  "maxPotentialFirstInputDelay": 114,
+  "timeToFirstByte": 41.566,
+  "weight": {
+    "summary": "37 requests • 2 MiB",
+    "total": 2144320,
+    "image": 1024497,
+    "imageCount": 10,
+    "script": 416741,
+    "scriptCount": 13,
+    "document": 10749,
+    "font": 574876,
+    "fontCount": 7,
+    "stylesheet": 116392,
+    "stylesheetCount": 4,
+    "thirdParty": 271741,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 4,
+    "+weight.total": 4,
+    "-weight.document": 3,
+    "+weight.document": 5,
+    "-weight.script": 2,
+    "+weight.script": 5,
+    "-weight.image": 5,
+    "+weight.image": 3,
+    "-weight.font": 5,
+    "+weight.font": 3,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 4
+  },
+  "axe": {
+    "passes": 58,
+    "violations": 4
+  }
+}
