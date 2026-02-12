@@ -12,15 +12,12 @@ module.exports = {
 		freshChrome: "site",
 	},
 	urls: [
-		"https://eslint.org/",
-		"https://qunitjs.com/",
-		"https://karma-runner.github.io/latest/index.html",
-		"https://gulpjs.com/",
-		"https://webhint.io/",
-		"https://gruntjs.com/",
-		"https://theintern.io/",
-		"https://istanbul.js.org/",
-		"https://webdriver.io/",
-		"https://mochajs.org/"
+		"https://www.ny.gov/",
+		"https://www.governor.ny.gov/",
+		"https://environmentalbondact.ny.gov/",
+		"https://digital-service-analytics.netlify.app/",
+		"https://digital.ny.gov/",
+		"https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+		"https://online2.ogs.ny.gov/greencleaning/"
 	]
 };

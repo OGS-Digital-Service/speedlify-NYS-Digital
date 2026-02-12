@@ -12,24 +12,12 @@ module.exports = {
 		// Use "site" if sites are all on the same origin and share assets.
 	},
 	urls: [
-		"https://www.11ty.dev/",
-		"https://www.gatsbyjs.com/",
-		"https://gohugo.io/",
-		"https://nextjs.org/",
-		"https://nuxt.com/",
-		"https://gridsome.org/",
-		"https://vuepress.vuejs.org/",
-		"https://docusaurus.io/",
-		"https://astro.build/",
-		"https://jekyllrb.com/",
-		"https://hexo.io/",
-		"https://svelte.dev/",
-		"https://remix.run/",
-		"https://record-collector.net/",
-		"https://www.solidjs.com/",
-		"https://lume.land/",
-	],
-	skipUrls: [
-		"https://hexo.io/zh-cn/",
+		"https://www.ny.gov/",
+		"https://www.governor.ny.gov/",
+		"https://environmentalbondact.ny.gov/",
+		"https://digital-service-analytics.netlify.app/",
+		"https://digital.ny.gov/",
+		"https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+		"https://online2.ogs.ny.gov/greencleaning/"
 	]
 };
