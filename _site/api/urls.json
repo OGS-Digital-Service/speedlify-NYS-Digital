@@ -10,9 +10,16 @@
     "url": "https://digital.ny.gov/",
     "hash": "98897288",
     "categories": [
-      "sample",
-      "ssg",
-      "test-runners"
+      "sample"
+    ],
+    "vertical": "sample"
+  },
+  "https://nys-digital-service.netlify.app/": {
+    "requestedUrl": "https://nys-digital-service.netlify.app/",
+    "url": "https://nys-digital-service.netlify.app/",
+    "hash": "1003e3bc",
+    "categories": [
+      "sample"
     ],
     "vertical": "sample"
   },
@@ -21,20 +28,16 @@
     "url": "https://www.governor.ny.gov/",
     "hash": "597dddd1",
     "categories": [
-      "sample",
-      "ssg",
-      "test-runners"
+      "sample"
     ],
     "vertical": "sample"
   },
-  "https://online2.ogs.ny.gov/greencleaning/": {
-    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
-    "url": "https://online2.ogs.ny.gov/greencleaning/",
-    "hash": "5bbda1ab",
+  "https://nys-digital-standards-report-cards.netlify.app/": {
+    "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
+    "url": "https://nys-digital-standards-report-cards.netlify.app/",
+    "hash": "5c6d4c40",
     "categories": [
-      "sample",
-      "ssg",
-      "test-runners"
+      "sample"
     ],
     "vertical": "sample"
   },
@@ -43,9 +46,16 @@
     "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
     "hash": "5d86bcc2",
     "categories": [
-      "sample",
-      "ssg",
-      "test-runners"
+      "sample"
+    ],
+    "vertical": "sample"
+  },
+  "https://online2.ogs.ny.gov/greencleaning/": {
+    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
+    "url": "https://online2.ogs.ny.gov/greencleaning/",
+    "hash": "5bbda1ab",
+    "categories": [
+      "sample"
     ],
     "vertical": "sample"
   },
@@ -54,9 +64,7 @@
     "url": "https://digital-service-analytics.netlify.app/",
     "hash": "edbae06e",
     "categories": [
-      "sample",
-      "ssg",
-      "test-runners"
+      "sample"
     ],
     "vertical": "sample"
   },
@@ -65,9 +73,7 @@
     "url": "https://environmentalbondact.ny.gov/",
     "hash": "f212ebdb",
     "categories": [
-      "sample",
-      "ssg",
-      "test-runners"
+      "sample"
     ],
     "vertical": "sample"
   }
