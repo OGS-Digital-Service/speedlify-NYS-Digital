@@ -6,7 +6,7 @@
     "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
     "test-pages": "node run-tests",
     "build": "npx @11ty/eleventy --quiet",
-    "start": "npx @11ty/eleventy --quiet --serve",
+    "start": "npx @11ty/eleventy --quiet --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
     "zip-results": "node zip-results.js",
     "build-production": "npm run test-pages && npm run build && npm run zip-results"
   },

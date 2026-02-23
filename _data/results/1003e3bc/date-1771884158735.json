@@ -1,0 +1,66 @@
+{
+  "url": "https://nys-digital-service.netlify.app/",
+  "requestedUrl": "https://nys-digital-service.netlify.app/",
+  "timestamp": 1771884233210,
+  "ranks": {
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 6,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 915.127,
+  "speedIndex": 1205.1284706454517,
+  "largestContentfulPaint": 4239.679,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0017865293127329225,
+  "timeToInteractive": 4239.679,
+  "maxPotentialFirstInputDelay": 28,
+  "timeToFirstByte": 26.720999999999997,
+  "weight": {
+    "summary": "18 requests • 596.2 KiB",
+    "total": 610468,
+    "image": 183426,
+    "imageCount": 3,
+    "script": 39009,
+    "scriptCount": 3,
+    "document": 4770,
+    "font": 372708,
+    "fontCount": 5,
+    "stylesheet": 8963,
+    "stylesheetCount": 4,
+    "thirdParty": 17525,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 8,
+    "-weight.document": 4,
+    "+weight.document": 6,
+    "-weight.script": 3,
+    "+weight.script": 6,
+    "-weight.image": 2,
+    "+weight.image": 8,
+    "-weight.font": 5,
+    "+weight.font": 5,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 306,
+    "violations": 0
+  }
+}

@@ -12,6 +12,8 @@ module.exports = {
 		"https://digital-service-analytics.netlify.app/",
 		"https://digital.ny.gov/",
 		"https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-		"https://online2.ogs.ny.gov/greencleaning/"
+		"https://online2.ogs.ny.gov/greencleaning/",
+		"https://nys-digital-service.netlify.app",
+		"https://nys-digital-standards-report-cards.netlify.app"
 	]
 };
