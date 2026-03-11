@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
+		<title>New </title>
 		<meta name="description" content="Benchmark web pages over time.">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
@@ -12,21 +12,21 @@
 		</script>
 	</head>
 	<body>
-		<header>
-			<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
-			<p class="speedlify-subhed">
-				Benchmark {{ sites[vertical].description or "web pages" }} over time.
-				{%- if sites[vertical].unordered %}
-					Results for this category are unordered.
-				{%- endif %}
-				{%- if maxResults %}
-					Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
-				{%- endif %}
-				Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-			</p>
-			<p class="speedlify-subhed">
-				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-			</p>
+		<header class="flex flew-rox items-center w-full hover:bg-gray-100">
+		
+			{% set params = {
+			title: "New York State Digital Performance",
+			description: "Benchmarking the performance of New York State's top 100 most trafficked websites backed by Speedlify.",
+			image: "",
+			buttons: [
+				{
+					text: "Learn More",
+					link: "https://www.zachleat.com/web/speedlify/"
+				}
+			]
+		} %}
+		{%- include "hero/_template.njk" -%}
+
 		</header>
 
 		<main>
@@ -34,9 +34,20 @@
 		</main>
 
 		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+		{% set params = {
+			color: "bg-white text-black",
+			agencyname: "New York State Digital Service",
+			link: "https://its.ny.gov",
+			arialabel: "Visit the NYS Office of Information Technology Services website",
+			github: "https://github.com/ny",
+			items: [
+				{ text: "Accessibility", link: "https://nys-digital-service.netlify.app/", arialabel: "Accessibility policy" },
+				{ text: "Contact", link: "https://ogs.ny.gov/contact-office-general-services", arialabel: "Contact us" }
+			]
+		} %}
+		{%- include "gfooter/_template.njk" -%}
 		</footer>
-
+		<p class="font-bold">MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>. </p> 
 		<script defer src="{{ '/chartist.js' | url }}"></script>
 		<script defer src="{{ '/script.js' | url }}"></script>
 	</body>

@@ -50,19 +50,19 @@
     ],
     "vertical": "sample"
   },
-  "https://digital-service-analytics.netlify.app/": {
-    "requestedUrl": "https://digital-service-analytics.netlify.app/",
-    "url": "https://digital-service-analytics.netlify.app/",
-    "hash": "edbae06e",
+  "https://online2.ogs.ny.gov/greencleaning/": {
+    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
+    "url": "https://online2.ogs.ny.gov/greencleaning/",
+    "hash": "5bbda1ab",
     "categories": [
       "sample"
     ],
     "vertical": "sample"
   },
-  "https://online2.ogs.ny.gov/greencleaning/": {
-    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
-    "url": "https://online2.ogs.ny.gov/greencleaning/",
-    "hash": "5bbda1ab",
+  "https://digital-service-analytics.netlify.app/": {
+    "requestedUrl": "https://digital-service-analytics.netlify.app/",
+    "url": "https://digital-service-analytics.netlify.app/",
+    "hash": "edbae06e",
     "categories": [
       "sample"
     ],
