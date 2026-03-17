@@ -3,21 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>New </title>
+		<title>New York State</title>
 		<meta name="description" content="Benchmark web pages over time.">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
+		<link href="/css/nysds-components.css" rel="stylesheet">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
 	</head>
 	<body>
-		<header class="flex flew-rox items-center w-full hover:bg-gray-100">
-		
+  
+		<header class="flex flew-rox items-center w-full">
+			{%- include "./unav/_template.njk" -%}
+			{% set params = {
+				images: "/assets/nysds-logo.png"
+			} %}
+
 			{% set params = {
 			title: "New York State Digital Performance",
-			description: "Benchmarking the performance of New York State's top 100 most trafficked websites backed by Speedlify.",
-			image: "",
+			description: "",
+			image: "assets/nysds-logo.png",
 			buttons: [
 				{
 					text: "Learn More",
@@ -35,7 +41,7 @@
 
 		<footer>
 		{% set params = {
-			color: "bg-white text-black",
+			color: "bg-white text-ny-gold",
 			agencyname: "New York State Digital Service",
 			link: "https://its.ny.gov",
 			arialabel: "Visit the NYS Office of Information Technology Services website",

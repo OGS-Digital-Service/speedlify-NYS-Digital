@@ -23,10 +23,10 @@
     ],
     "vertical": "sample"
   },
-  "https://www.governor.ny.gov/": {
-    "requestedUrl": "https://www.governor.ny.gov/",
-    "url": "https://www.governor.ny.gov/",
-    "hash": "597dddd1",
+  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
+    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "hash": "5d86bcc2",
     "categories": [
       "sample"
     ],
@@ -41,19 +41,10 @@
     ],
     "vertical": "sample"
   },
-  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
-    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "hash": "5d86bcc2",
-    "categories": [
-      "sample"
-    ],
-    "vertical": "sample"
-  },
-  "https://online2.ogs.ny.gov/greencleaning/": {
-    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
-    "url": "https://online2.ogs.ny.gov/greencleaning/",
-    "hash": "5bbda1ab",
+  "https://www.governor.ny.gov/": {
+    "requestedUrl": "https://www.governor.ny.gov/",
+    "url": "https://www.governor.ny.gov/",
+    "hash": "597dddd1",
     "categories": [
       "sample"
     ],
@@ -72,6 +63,15 @@
     "requestedUrl": "https://environmentalbondact.ny.gov/",
     "url": "https://environmentalbondact.ny.gov/",
     "hash": "f212ebdb",
+    "categories": [
+      "sample"
+    ],
+    "vertical": "sample"
+  },
+  "https://online2.ogs.ny.gov/greencleaning/": {
+    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
+    "url": "https://online2.ogs.ny.gov/greencleaning/",
+    "hash": "5bbda1ab",
     "categories": [
       "sample"
     ],

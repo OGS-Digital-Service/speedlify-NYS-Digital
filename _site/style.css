@@ -620,12 +620,20 @@ html {
 header {
 	background-color: #154973;
 	padding: 1rem;
+	color: #fff;
 	text-align: left;
+}
+header:hover{
+	color: #face00;
+
+}
+header h2 {
+	color: #face00;
 }
 body {
 	font-family: Proxima Nova, sans-serif;
-	background-color: #457AA5;
-	color: #fff;
+	background-color: #ffff;
+	color: #000000;
 	margin: 0;
 	padding: 0;/* 8px /16 */
 }
@@ -639,6 +647,9 @@ footer {
 	align-items: baseline;
 	margin-top: 3rem;
 	justify-content: space-between;
+}
+footer h2 {
+	color: #face00;
 }
 code {
 	font-family: Arial, Proxima Nova;
@@ -662,7 +673,7 @@ html:not(.js) [data-js-only] {
 
 :link,
 :visited {
-	color: #fff;
+	color: #007ac2;
 }
 
 summary {

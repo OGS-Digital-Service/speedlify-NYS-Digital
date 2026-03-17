@@ -1,0 +1,35 @@
+
+.nysds-state-logo {
+  background-image: url('assets/nysds-logo.png'); 
+  background-repeat: no-repeat;
+  display: flex;
+  height: 60px;
+  width: 90px;
+}
+
+
+.nysds-unav {
+  display: flex;
+  align-items: center;
+  font-family: Proxima Nova, Arial, sans-serif;
+}
+
+.nysds-unav-bottom-border {
+  border-bottom: 3px solid #d0d0ce;
+}
+
+.nysds-unav-trust-link {
+  margin-right: 12px;
+  margin-left: 30px;
+}
+
+.nysds-trust-identifier {
+  font-size: 0.7em;
+}
+
+
+@media (min-width: 1024px) {
+  .nysds-unav-trust-link {
+    margin-left: 60px;
+  }
+}
