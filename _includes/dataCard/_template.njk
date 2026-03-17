@@ -1,0 +1,8 @@
+{% set cardData = params.dataSource %}
+{# set the card data source from the page #}
+
+{% if params.type === "performance" %}
+     {% include './_performance.njk' %}
+{% elif params.type === "a11y" %}
+    {% include './_a11y.njk' %}
+{% endif %}

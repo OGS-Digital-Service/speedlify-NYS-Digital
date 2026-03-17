@@ -14,10 +14,19 @@
     ],
     "vertical": "sample"
   },
-  "https://nys-digital-service.netlify.app/": {
-    "requestedUrl": "https://nys-digital-service.netlify.app/",
-    "url": "https://nys-digital-service.netlify.app/",
-    "hash": "1003e3bc",
+  "https://www.governor.ny.gov/": {
+    "requestedUrl": "https://www.governor.ny.gov/",
+    "url": "https://www.governor.ny.gov/",
+    "hash": "597dddd1",
+    "categories": [
+      "sample"
+    ],
+    "vertical": "sample"
+  },
+  "https://online2.ogs.ny.gov/greencleaning/": {
+    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
+    "url": "https://online2.ogs.ny.gov/greencleaning/",
+    "hash": "5bbda1ab",
     "categories": [
       "sample"
     ],
@@ -41,10 +50,10 @@
     ],
     "vertical": "sample"
   },
-  "https://www.governor.ny.gov/": {
-    "requestedUrl": "https://www.governor.ny.gov/",
-    "url": "https://www.governor.ny.gov/",
-    "hash": "597dddd1",
+  "https://nys-digital-service.netlify.app/": {
+    "requestedUrl": "https://nys-digital-service.netlify.app/",
+    "url": "https://nys-digital-service.netlify.app/",
+    "hash": "1003e3bc",
     "categories": [
       "sample"
     ],
@@ -63,15 +72,6 @@
     "requestedUrl": "https://environmentalbondact.ny.gov/",
     "url": "https://environmentalbondact.ny.gov/",
     "hash": "f212ebdb",
-    "categories": [
-      "sample"
-    ],
-    "vertical": "sample"
-  },
-  "https://online2.ogs.ny.gov/greencleaning/": {
-    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
-    "url": "https://online2.ogs.ny.gov/greencleaning/",
-    "hash": "5bbda1ab",
     "categories": [
       "sample"
     ],

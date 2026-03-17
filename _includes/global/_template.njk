@@ -1,5 +1,3 @@
-{% if params.variant === "internal" %}
-{% else %}
     <nav class="nysds-global-nav" 
      aria-labelledby="nysds-global-nav-label"
      x-data="{ 
@@ -32,7 +30,7 @@
     </div>
 
     <div class="nysds-global-nav-container"
-        :class="window.innerWidth < 1280 &&  mobileOpen ? 'nysds-flex' : ''"
+        :class="window.innerWidth < 1280 &&  mobileOpen ? '!flex' : ''"
          x-cloak
          id="nygov-nav-menu"  
     >
@@ -45,7 +43,7 @@
                             }"
                     >
                     {% if link.url %}
-                        <a href="{{link.url}}" class="nysds-global-link">
+                        <a href="/{{link.url}}" class="nysds-global-link">
                             {{link.text}}
                         </a>
                     {% else %}
@@ -74,7 +72,7 @@
                         {# _______________________________________________ #}
                         {%  for childLink in link.items %}
                             <li class="nysds-global-list-child-item">
-                                <a href="{{childLink.url}}" class="nysds-global-sublink nysds-global-link" 
+                                <a href="/{{childLink.url}}" class="nysds-global-sublink nysds-global-link" 
                                 >
                                     <span class="nysds-global-turn-arrow-icon" aria-hidden="true"></span>
                                     {{childLink.text}}
@@ -89,4 +87,3 @@
         </ul>
     </div>
 </nav>
-{% endif %}

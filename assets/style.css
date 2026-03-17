@@ -2,7 +2,7 @@ html {
 	overflow-y: scroll;
 	margin: 0;
 }
-header {
+/* header {
 	background-color: #154973;
 	padding: 1rem;
 	color: #fff;
@@ -14,7 +14,7 @@ header:hover{
 }
 header h2 {
 	color: #face00;
-}
+} */
 body {
 	font-family: Proxima Nova, sans-serif;
 	background-color: #ffff;
@@ -22,7 +22,7 @@ body {
 	margin: 0;
 	padding: 0;/* 8px /16 */
 }
-footer {
+/* footer {
 	font-style: italic;
 	text-align: left;
 	background-color: #154973;
@@ -32,7 +32,7 @@ footer {
 	align-items: baseline;
 	margin-top: 3rem;
 	justify-content: space-between;
-}
+} */
 footer h2 {
 	color: #face00;
 }
@@ -44,6 +44,18 @@ html:not(.js) [data-js-only] {
 	display: none !important;
 }
 [data-sr-only] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap; /* 1 */
+	width: 1px;
+}
+
+.sr-only {
 	border: 0;
 	clip: rect(0 0 0 0);
 	height: 1px;

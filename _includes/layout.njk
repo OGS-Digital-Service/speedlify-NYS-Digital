@@ -7,32 +7,16 @@
 		<meta name="description" content="Benchmark web pages over time.">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
-		<link href="/css/nysds-components.css" rel="stylesheet">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
+		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	</head>
 	<body>
-  
-		<header class="flex flew-rox items-center w-full">
-			{%- include "./unav/_template.njk" -%}
-			{% set params = {
-				images: "/assets/nysds-logo.png"
-			} %}
-
-			{% set params = {
-			title: "New York State Digital Performance",
-			description: "",
-			image: "assets/nysds-logo.png",
-			buttons: [
-				{
-					text: "Learn More",
-					link: "https://www.zachleat.com/web/speedlify/"
-				}
-			]
-		} %}
-		{%- include "hero/_template.njk" -%}
-
+		 {% from '_components.njk' import unav,global,footer  %} 
+		<header class="">
+			{{ unav({})}} 
+			{% include '_nav-data.njk' %} 
 		</header>
 
 		<main>
@@ -40,19 +24,9 @@
 		</main>
 
 		<footer>
-		{% set params = {
-			color: "bg-white text-ny-gold",
-			agencyname: "New York State Digital Service",
-			link: "https://its.ny.gov",
-			arialabel: "Visit the NYS Office of Information Technology Services website",
-			github: "https://github.com/ny",
-			items: [
-				{ text: "Accessibility", link: "https://nys-digital-service.netlify.app/", arialabel: "Accessibility policy" },
-				{ text: "Contact", link: "https://ogs.ny.gov/contact-office-general-services", arialabel: "Contact us" }
-			]
-		} %}
-		{%- include "gfooter/_template.njk" -%}
+		 {% include '_footer-data.njk' %}
 		</footer>
+
 		<p class="font-bold">MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>. </p> 
 		<script defer src="{{ '/chartist.js' | url }}"></script>
 		<script defer src="{{ '/script.js' | url }}"></script>
