@@ -3,24 +3,83 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
+		<title>New York State</title>
 		<meta name="description" content="Benchmark web pages over time.">
 		<meta name="generator" content="Eleventy v3.1.2">
 		<link rel="stylesheet" href="/style.css">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
+		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1 class="speedlify-hed"><a href="/">speedlify</a></h1>
-			<p class="speedlify-subhed">
-				Benchmark web pages over time.
-				Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-			</p>
-			<p class="speedlify-subhed">
-				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-			</p>
+		  
+		<header class="">
+			<section class="nysds-unav" aria-labelledby="trustbar-statement">
+
+    <a href="https://ny.gov" class="nysds-unav-trust-link">
+        <span class="nysds-state-logo" aria-hidden="true"></span>
+        <span class="sr-only">New York State Homepage</span>
+    </a>
+
+    <div class="nysds-trust-identifier" id="trustbar-statement"> An Official Website of New York State </div>
+
+</section>
+ 
+			    <nav class="nysds-global-nav" 
+     aria-labelledby="nysds-global-nav-label"
+     x-data="{ 
+                dropdownMenu: false,
+                mobileOpen: false,
+                closeIcon: false
+                }"  
+                
+     @click.outside="mobileOpen = false, closeIcon = false"
+     @keydown.escape.document="mobileOpen = false, closeIcon = false"
+     >
+    <span class="sr-only" id="nysds-global-nav-label"> main website navigation </span>
+    <div class="nysds-global-name-container">
+        <h1 class="nysds-global-site-name">
+            <a href="/" class="nysds-global-home-link">
+                NYS Digital Speedlify
+            </a>
+        </h1>
+        
+        <button class="nysds-global-mobile-menu"
+                @click="mobileOpen = ! mobileOpen, closeIcon = ! closeIcon"
+                aria-controls="nygov-nav-menu"
+                :aria-expanded="mobileOpen" 
+        >
+            <span class="nysds-global-menu-icon" x-show="! closeIcon"></span>
+            <span class="nysds-global-close-icon" x-show="closeIcon" x-cloak></span>
+            <span class="sr-only"> Toggle Website Navigation </span>
+        </button>
+        
+    </div>
+
+    <div class="nysds-global-nav-container"
+        :class="window.innerWidth < 1280 &&  mobileOpen ? '!flex' : ''"
+         x-cloak
+         id="nygov-nav-menu"  
+    >
+        <ul class="nysds-global-link-list"
+        >
+            
+                <li class="nysds-global-list-item"
+                    x-data="{
+                                dropdown: false
+                            }"
+                    >
+                    
+                        <a href="/sample/" class="nysds-global-link">
+                            NYS Digital Sites
+                        </a>
+                    
+                </li>
+            
+        </ul>
+    </div>
+</nav> 
 		</header>
 
 		<main>
@@ -42,14 +101,13 @@
 		margin: 0;
 	}
 	</style>
-	<h3>Quick Guide to Speedlify</h3>
-	<ol>
-		<li>Add your own URLs to test in a <code>_data/sites/*.js</code> configuration file. Look at the existing samples (Make sure you use <code>skip: false</code>). You can delete the existing ones after you’ve made your own</li>
-	</ol>
+	<h3>NYS Digital Performance Hub</h3>
+	
+		<p>Benchmarking the performance of New York State's top 100 most trafficked websites backed by Speedlify.</p>
 </div>
 
 <table class="leaderboard leaderboard-list">
-	<caption>Choose a category</caption>
+	<caption>Digital Performance Test</caption>
 	<thead data-sr-only>
 		<tr>
 			<th>Category</th>
@@ -68,9 +126,17 @@
 		</main>
 
 		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+		 <footer class="nysds-footer">
+    <h2 class="nysds-footer-site-name">New York State Digital <span class="nysds-footer-separator" aria-hidden="true"></span></h2>
+    <ul class="nysds-footer-list">
+        
+            <li ><a href="https://ny.gov" class="nysds-footer-links">NY.gov</a></li>
+        
+    </ul>
+</footer>
 		</footer>
 
+		<p class="font-bold">MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>. </p> 
 		<script defer src="/chartist.js"></script>
 		<script defer src="/script.js"></script>
 	</body>

@@ -3,25 +3,83 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
+		<title>New York State</title>
 		<meta name="description" content="Benchmark web pages over time.">
 		<meta name="generator" content="Eleventy v3.1.2">
 		<link rel="stylesheet" href="/style.css">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
+		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1 class="speedlify-hed"><a href="/">speedlify</a>:sample</h1>
-			<p class="speedlify-subhed">
-				Benchmark The default sites that get tested over time.
-					Updates <em>at most</em> once every 1 minutes. Only the last 10 runs (and the oldest run) are shown.
-				Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-			</p>
-			<p class="speedlify-subhed">
-				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-			</p>
+		  
+		<header class="">
+			<section class="nysds-unav" aria-labelledby="trustbar-statement">
+
+    <a href="https://ny.gov" class="nysds-unav-trust-link">
+        <span class="nysds-state-logo" aria-hidden="true"></span>
+        <span class="sr-only">New York State Homepage</span>
+    </a>
+
+    <div class="nysds-trust-identifier" id="trustbar-statement"> An Official Website of New York State </div>
+
+</section>
+ 
+			    <nav class="nysds-global-nav" 
+     aria-labelledby="nysds-global-nav-label"
+     x-data="{ 
+                dropdownMenu: false,
+                mobileOpen: false,
+                closeIcon: false
+                }"  
+                
+     @click.outside="mobileOpen = false, closeIcon = false"
+     @keydown.escape.document="mobileOpen = false, closeIcon = false"
+     >
+    <span class="sr-only" id="nysds-global-nav-label"> main website navigation </span>
+    <div class="nysds-global-name-container">
+        <h1 class="nysds-global-site-name">
+            <a href="/" class="nysds-global-home-link">
+                NYS Digital Speedlify
+            </a>
+        </h1>
+        
+        <button class="nysds-global-mobile-menu"
+                @click="mobileOpen = ! mobileOpen, closeIcon = ! closeIcon"
+                aria-controls="nygov-nav-menu"
+                :aria-expanded="mobileOpen" 
+        >
+            <span class="nysds-global-menu-icon" x-show="! closeIcon"></span>
+            <span class="nysds-global-close-icon" x-show="closeIcon" x-cloak></span>
+            <span class="sr-only"> Toggle Website Navigation </span>
+        </button>
+        
+    </div>
+
+    <div class="nysds-global-nav-container"
+        :class="window.innerWidth < 1280 &&  mobileOpen ? '!flex' : ''"
+         x-cloak
+         id="nygov-nav-menu"  
+    >
+        <ul class="nysds-global-link-list"
+        >
+            
+                <li class="nysds-global-list-item"
+                    x-data="{
+                                dropdown: false
+                            }"
+                    >
+                    
+                        <a href="/sample/" class="nysds-global-link">
+                            NYS Digital Sites
+                        </a>
+                    
+                </li>
+            
+        </ul>
+    </div>
+</nav> 
 		</header>
 
 		<main>
@@ -67,9 +125,9 @@
 		<title>Sparkline ranging between 347 and 385.</title>
 		<path
 			fill="transparent"
-			stroke="url(#jkp5i2)" d="M 0,5.3 L 23.3,2.1 L 46.7,1.9 L 70,1.5"
+			stroke="url(#19xvgqt)" d="M 0,5.3 L 23.3,2.1 L 46.7,1.9 L 70,1.5"
 		/>
-		<linearGradient id="jkp5i2" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="19xvgqt" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -387,9 +445,9 @@
 		<title>Sparkline ranging between 378 and 378.</title>
 		<path
 			fill="transparent"
-			stroke="url(#12mt21i)" d="M 0,2.2 L 70,2.2"
+			stroke="url(#15svkqg)" d="M 0,2.2 L 70,2.2"
 		/>
-		<linearGradient id="12mt21i" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="15svkqg" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -575,9 +633,9 @@
 		<title>Sparkline ranging between 371 and 374.</title>
 		<path
 			fill="transparent"
-			stroke="url(#24oia2s)" d="M 0,2.6 L 23.3,2.9 L 46.7,2.9 L 70,2.8"
+			stroke="url(#4fgg5op)" d="M 0,2.6 L 23.3,2.9 L 46.7,2.9 L 70,2.8"
 		/>
-		<linearGradient id="24oia2s" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="4fgg5op" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -895,9 +953,9 @@
 		<title>Sparkline ranging between 370 and 370.</title>
 		<path
 			fill="transparent"
-			stroke="url(#2mw6jnf)" d="M 0,3 L 70,3"
+			stroke="url(#45jo6l3)" d="M 0,3 L 70,3"
 		/>
-		<linearGradient id="2mw6jnf" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="45jo6l3" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -1083,9 +1141,9 @@
 		<title>Sparkline ranging between 357 and 364.</title>
 		<path
 			fill="transparent"
-			stroke="url(#47vq0xz)" d="M 0,4.3 L 23.3,3.6 L 46.7,4.3 L 70,4.3"
+			stroke="url(#3h1pakk)" d="M 0,4.3 L 23.3,3.6 L 46.7,4.3 L 70,4.3"
 		/>
-		<linearGradient id="47vq0xz" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="3h1pakk" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -1403,9 +1461,9 @@
 		<title>Sparkline ranging between 352 and 356.</title>
 		<path
 			fill="transparent"
-			stroke="url(#ozzyp9)" d="M 0,4.8 L 23.3,4.8 L 46.7,4.4 L 70,4.8"
+			stroke="url(#p63751)" d="M 0,4.8 L 23.3,4.8 L 46.7,4.4 L 70,4.8"
 		/>
-		<linearGradient id="ozzyp9" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="p63751" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -1723,9 +1781,9 @@
 		<title>Sparkline ranging between 323 and 332.</title>
 		<path
 			fill="transparent"
-			stroke="url(#2kev8d6)" d="M 0,7.6 L 23.3,6.8 L 46.7,7.6 L 70,7.7"
+			stroke="url(#1fj7vhb)" d="M 0,7.6 L 23.3,6.8 L 46.7,7.6 L 70,7.7"
 		/>
-		<linearGradient id="2kev8d6" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="1fj7vhb" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -2043,9 +2101,9 @@
 		<title>Sparkline ranging between 319 and 324.</title>
 		<path
 			fill="transparent"
-			stroke="url(#183c3jc)" d="M 0,7.6 L 23.3,7.6 L 46.7,7.7 L 70,8.1"
+			stroke="url(#460ny1x)" d="M 0,7.6 L 23.3,7.6 L 46.7,7.7 L 70,8.1"
 		/>
-		<linearGradient id="183c3jc" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="460ny1x" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -2363,9 +2421,9 @@
 		<title>Sparkline ranging between 311 and 315.</title>
 		<path
 			fill="transparent"
-			stroke="url(#2zrhlnq)" d="M 0,8.9 L 23.3,8.5 L 46.7,8.8 L 70,8.7"
+			stroke="url(#30bfbrm)" d="M 0,8.9 L 23.3,8.5 L 46.7,8.8 L 70,8.7"
 		/>
-		<linearGradient id="2zrhlnq" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="30bfbrm" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
@@ -2684,9 +2742,17 @@
 		</main>
 
 		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+		 <footer class="nysds-footer">
+    <h2 class="nysds-footer-site-name">New York State Digital <span class="nysds-footer-separator" aria-hidden="true"></span></h2>
+    <ul class="nysds-footer-list">
+        
+            <li ><a href="https://ny.gov" class="nysds-footer-links">NY.gov</a></li>
+        
+    </ul>
+</footer>
 		</footer>
 
+		<p class="font-bold">MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>. </p> 
 		<script defer src="/chartist.js"></script>
 		<script defer src="/script.js"></script>
 	</body>
