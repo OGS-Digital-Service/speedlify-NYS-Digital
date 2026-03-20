@@ -13,7 +13,7 @@
 		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	</head>
 	<body>
-		 {% from '_components.njk' import unav,global,footer  %} 
+		 {% from '_components.njk' import unav,global,cards,footer  %} 
 		<header class="">
 			{{ unav({})}} 
 			{% include '_nav-data.njk' %} 
@@ -21,6 +21,22 @@
 
 		<main>
 			{{ content | safe }}
+{{
+    cards({
+        heading:"Digital Performance Test",
+        intro:"",
+        cards:[
+            {
+                title:"Sites Ready For Testing",
+                content:"Automated performance data results for New York State official websites.",
+                link:"/sample/",
+                image:"https://www.governor.ny.gov/sites/default/files/2024-08/Governor%27sSeal1280x512_1.jpg",
+                imagealt:"new york state seal"
+            }
+        ]  
+    })
+}}
+
 		</main>
 
 		<footer>
