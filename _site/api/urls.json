@@ -1,4 +1,14 @@
 {
+  "https://www.ogs.ny.gov/": {
+    "requestedUrl": "https://www.ogs.ny.gov/",
+    "url": "https://ogs.ny.gov/",
+    "hash": "15890389",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
   "https://www.ny.gov/": {
     "requestedUrl": "https://www.ny.gov/",
     "url": "https://www.ny.gov/",
@@ -28,30 +38,20 @@
     ],
     "vertical": "digital-sites"
   },
+  "https://ogs.ny.gov/procurement": {
+    "requestedUrl": "https://ogs.ny.gov/procurement",
+    "url": "https://ogs.ny.gov/procurement",
+    "hash": "36bfff17",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
   "https://www.governor.ny.gov/": {
     "requestedUrl": "https://www.governor.ny.gov/",
     "url": "https://www.governor.ny.gov/",
     "hash": "597dddd1",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
-    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "hash": "5d86bcc2",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://nys-digital-standards-report-cards.netlify.app/": {
-    "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
-    "url": "https://nys-digital-standards-report-cards.netlify.app/",
-    "hash": "5c6d4c40",
     "categories": [
       "digital-sites",
       "ogs"
@@ -68,10 +68,50 @@
     ],
     "vertical": "digital-sites"
   },
-  "https://digital-service-analytics.netlify.app/": {
-    "requestedUrl": "https://digital-service-analytics.netlify.app/",
-    "url": "https://digital-service-analytics.netlify.app/",
-    "hash": "edbae06e",
+  "https://nys-digital-standards-report-cards.netlify.app/": {
+    "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
+    "url": "https://nys-digital-standards-report-cards.netlify.app/",
+    "hash": "5c6d4c40",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
+    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "hash": "5d86bcc2",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://ogs.ny.gov/parking": {
+    "requestedUrl": "https://ogs.ny.gov/parking",
+    "url": "https://ogs.ny.gov/parking",
+    "hash": "70c70541",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list": {
+    "requestedUrl": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+    "url": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+    "hash": "6917627c",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://ogs.ny.gov/design-construction": {
+    "requestedUrl": "https://ogs.ny.gov/design-construction",
+    "url": "https://ogs.ny.gov/design-construction",
+    "hash": "f6a2d26b",
     "categories": [
       "digital-sites",
       "ogs"
@@ -82,6 +122,16 @@
     "requestedUrl": "https://environmentalbondact.ny.gov/",
     "url": "https://environmentalbondact.ny.gov/",
     "hash": "f212ebdb",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://digital-service-analytics.netlify.app/": {
+    "requestedUrl": "https://digital-service-analytics.netlify.app/",
+    "url": "https://digital-service-analytics.netlify.app/",
+    "hash": "edbae06e",
     "categories": [
       "digital-sites",
       "ogs"

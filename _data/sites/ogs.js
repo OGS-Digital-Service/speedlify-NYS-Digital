@@ -6,7 +6,7 @@ module.exports = {
 		frequency: 1, // (in minutes)
 	},
 	urls: [
-		"https://www.ogs.ny.gov/",
+		"https://ogs.ny.gov/",
 		"https://ogs.ny.gov/design-construction",
 		"https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
 		"https://ogs.ny.gov/parking",
