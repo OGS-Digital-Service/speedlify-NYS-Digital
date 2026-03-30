@@ -13,30 +13,53 @@
 		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	</head>
 	<body>
-		 {% from '_components.njk' import unav,global,cards,footer  %} 
+		 {% from '_components.njk' import unav,global,cards,footer,hero  %} 
 		<header class="">
 			{{ unav({})}} 
 			{% include '_nav-data.njk' %} 
 		</header>
 
 		<main>
-			{{ content | safe }}
+{{ hero({
+    title: "Digital Services Performance Test",
+    description:"Connect your data, customize your dashboards and share insights across your organization with the NYS Digital Performance Hub.",
+    image:"https://its.ny.gov/sites/g/files/oee1301/files/styles/wide_lead/public/media/2024/02/digital-storage-hero.png?h=df67fb46&itok=qKyYzHYk",
+    headline:"New York State backed by Speedlify",
+    date:"2026",
+    links: [
+        {
+            text:"",
+            link:"",
+            arialabel:""
+        }
+    ]
+    })
+}}
+		{{ content | safe }}
+
+
 {{
     cards({
         heading:"Digital Performance Test",
-        intro:"",
+        intro:"Learn about the performance of New York State Digital Services official websites.",
         cards:[
             {
-                title:"Sites Ready For Testing",
-                content:"Automated performance data results for New York State official websites.",
-                link:"/sample/",
+                title:"Digital Government Performance Dashboard",
+                content:"Automated performance data results for New York State Digital Services official websites.",
+                link:"/digital-sites/",
+                image:"https://www.governor.ny.gov/sites/default/files/2024-08/Governor%27sSeal1280x512_1.jpg",
+                imagealt:"new york state seal"
+            },
+			{
+                title:"Office of General Services Performance Dashboard",
+                content:"Automated performance data results for New York State Office of General Services official websites.",
+                link:"/ogs/",
                 image:"https://www.governor.ny.gov/sites/default/files/2024-08/Governor%27sSeal1280x512_1.jpg",
                 imagealt:"new york state seal"
             }
         ]  
     })
 }}
-
 		</main>
 
 		<footer>

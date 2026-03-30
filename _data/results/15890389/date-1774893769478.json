@@ -1,7 +1,7 @@
 {
   "url": "https://ogs.ny.gov/",
   "requestedUrl": "https://ogs.ny.gov/",
-  "timestamp": 1774896111321,
+  "timestamp": 1774893889386,
   "ranks": {
     "hundos": 5,
     "performance": 5,
@@ -16,27 +16,27 @@
     "seo": 0.85,
     "total": 333
   },
-  "firstContentfulPaint": 4954.822000000001,
-  "speedIndex": 4954.822000000001,
-  "largestContentfulPaint": 15791.9935,
-  "totalBlockingTime": 1.5,
-  "cumulativeLayoutShift": 0.11704985946225356,
-  "timeToInteractive": 16064.99095,
-  "maxPotentialFirstInputDelay": 53,
-  "timeToFirstByte": 38.050000000000004,
+  "firstContentfulPaint": 4859.8060000000005,
+  "speedIndex": 4859.8060000000005,
+  "largestContentfulPaint": 14758.4155,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0.11657572678717304,
+  "timeToInteractive": 14943.511449999998,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 31.557000000000002,
   "weight": {
     "summary": "125 requests • 3.6 MiB",
-    "total": 3767057,
-    "image": 1505605,
+    "total": 3767434,
+    "image": 1505470,
     "imageCount": 16,
-    "script": 696889,
+    "script": 697357,
     "scriptCount": 57,
-    "document": 15910,
-    "font": 942607,
+    "document": 15912,
+    "font": 942519,
     "fontCount": 11,
-    "stylesheet": 581046,
+    "stylesheet": 581108,
     "stylesheetCount": 27,
-    "thirdParty": 347777,
+    "thirdParty": 348017,
     "thirdPartyCount": 5
   },
   "run": {
@@ -48,8 +48,8 @@
     "+weight.total": 1,
     "-weight.document": 4,
     "+weight.document": 2,
-    "-weight.script": 3,
-    "+weight.script": 3,
+    "-weight.script": 4,
+    "+weight.script": 2,
     "-weight.image": 5,
     "+weight.image": 1,
     "-weight.font": 3,
@@ -62,11 +62,5 @@
   "axe": {
     "passes": 1066,
     "violations": 3
-  },
-  "previousRanks": {
-    "hundos": 5,
-    "performance": 5,
-    "accessibility": 3,
-    "cumulative": 5
   }
 }

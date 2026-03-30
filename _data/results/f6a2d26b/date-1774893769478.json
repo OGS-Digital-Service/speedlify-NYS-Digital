@@ -1,42 +1,42 @@
 {
   "url": "https://ogs.ny.gov/design-construction",
   "requestedUrl": "https://ogs.ny.gov/design-construction",
-  "timestamp": 1774896119869,
+  "timestamp": 1774893897929,
   "ranks": {
-    "hundos": 4,
-    "performance": 4,
+    "hundos": 3,
+    "performance": 2,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.59,
+    "performance": 0.6,
     "accessibility": 0.93,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 344
+    "total": 345
   },
-  "firstContentfulPaint": 4541.695,
-  "speedIndex": 4897.57116601508,
-  "largestContentfulPaint": 14362.21,
+  "firstContentfulPaint": 4530.885,
+  "speedIndex": 4530.885,
+  "largestContentfulPaint": 14126.607,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.11895266452905959,
-  "timeToInteractive": 14436.675500000001,
+  "cumulativeLayoutShift": 0.11888713432858425,
+  "timeToInteractive": 14196.8196,
   "maxPotentialFirstInputDelay": 50,
-  "timeToFirstByte": 50.242999999999995,
+  "timeToFirstByte": 26.562000000000005,
   "weight": {
     "summary": "116 requests • 2.9 MiB",
-    "total": 3088396,
-    "image": 828214,
+    "total": 3087957,
+    "image": 828012,
     "imageCount": 7,
-    "script": 697523,
+    "script": 697249,
     "scriptCount": 57,
-    "document": 13945,
-    "font": 942651,
+    "document": 13944,
+    "font": 942788,
     "fontCount": 11,
-    "stylesheet": 581144,
+    "stylesheet": 581154,
     "stylesheetCount": 27,
-    "thirdParty": 348405,
+    "thirdParty": 348012,
     "thirdPartyCount": 5
   },
   "run": {
@@ -48,25 +48,19 @@
     "+weight.total": 3,
     "-weight.document": 3,
     "+weight.document": 3,
-    "-weight.script": 4,
-    "+weight.script": 2,
+    "-weight.script": 3,
+    "+weight.script": 3,
     "-weight.image": 3,
     "+weight.image": 3,
     "-weight.font": 4,
     "+weight.font": 2,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 3,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 1083,
     "violations": 5
-  },
-  "previousRanks": {
-    "hundos": 3,
-    "performance": 2,
-    "accessibility": 5,
-    "cumulative": 3
   }
 }

@@ -5,7 +5,8 @@ layout: layout.njk
 <div class="starter-message">
 	<style>
 	.starter-message {
-		background-color: hsla(0, 0%, 0%, .4);
+		background-color: #457AA5;
+		color: white;
 		border: 2px solid hsla(60, 100%, 2%, 1);
 		border-radius: .5em;
 		padding: 2rem;
@@ -21,27 +22,6 @@ layout: layout.njk
 	</style>
 	<h3>NYS Digital Performance Hub</h3>
 	
-		<p>Benchmarking the performance of New York State's top 100 most trafficked websites backed by Speedlify.</p>
+		<p>Performance bottlenecks don't wait for your next sprint review. With automated testing running on your schedule and dashboards that update in real time, your team catches issues before they become problems.</p>
 </div>
 {% endstarterMessage %}
-<table class="leaderboard leaderboard-list">
-	<caption>Digital Performance Test</caption>
-	<thead data-sr-only>
-		<tr>
-			<th>Category</th>
-			<th>Site Count</th>
-			<th>Last Run Date</th>
-		</tr>
-	</thead>
-	<tbody>
-	{%- for key, category in sites %}
-		{%- if not category.hide %}
-		<tr>
-			<td><a href="{{ ('/' + (category.name or key) | lower | slug + '/') | url }}">{{ category.description or category.name or key }}</a></td>
-			<td><span class="count">×{{ category.urls.length }}<span class="leaderboard-hide-sm"> site{% if category.urls.length != 1 %}s{% endif %}</span></span></td>
-			<td class="leaderboard-hide-sm">{% if lastruns[key].timestamp %}<span class="small"><timestamp-ago timestamp="{{ lastruns[key].timestamp }}">{{ lastruns[key].timestamp | displayDate | safe }}</timestamp-ago></span>{% endif %}</td>
-		</tr>
-		{%- endif %}
-	{%- endfor %}
-	</tbody>
-</table>

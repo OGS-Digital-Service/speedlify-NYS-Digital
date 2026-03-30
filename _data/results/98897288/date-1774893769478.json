@@ -1,12 +1,12 @@
 {
   "url": "https://digital.ny.gov/",
   "requestedUrl": "https://digital.ny.gov/",
-  "timestamp": 1774896057304,
+  "timestamp": 1774893815431,
   "ranks": {
-    "hundos": 4,
-    "performance": 5,
-    "accessibility": 4,
-    "cumulative": 4
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "12.8.2",
@@ -16,25 +16,25 @@
     "seo": 1,
     "total": 372
   },
-  "firstContentfulPaint": 1609.0845,
-  "speedIndex": 1609.0845,
-  "largestContentfulPaint": 6674.214000000002,
+  "firstContentfulPaint": 1646.1425,
+  "speedIndex": 1646.1425,
+  "largestContentfulPaint": 6660.311,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.008452317854395722,
-  "timeToInteractive": 6674.214000000002,
+  "timeToInteractive": 6660.311,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 34.432,
+  "timeToFirstByte": 62.44199999999999,
   "weight": {
     "summary": "18 requests • 1 MiB",
-    "total": 1067290,
-    "image": 691441,
+    "total": 1067403,
+    "image": 691462,
     "imageCount": 4,
     "script": 17073,
     "scriptCount": 1,
-    "document": 3192,
-    "font": 333527,
+    "document": 3194,
+    "font": 333613,
     "fontCount": 5,
-    "stylesheet": 16219,
+    "stylesheet": 16222,
     "stylesheetCount": 5,
     "thirdParty": 54565,
     "thirdPartyCount": 2
@@ -44,29 +44,23 @@
     "total": 1
   },
   "sidequests": {
-    "-weight.total": 4,
+    "-weight.total": 2,
     "+weight.total": 6,
     "-weight.document": 2,
-    "+weight.document": 8,
+    "+weight.document": 6,
     "-weight.script": 1,
-    "+weight.script": 8,
-    "-weight.image": 6,
+    "+weight.script": 7,
+    "-weight.image": 4,
     "+weight.image": 4,
     "-weight.font": 4,
-    "+weight.font": 6,
-    "+weight.fontCount": 4,
-    "-timeToFirstByte": 7,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 131,
     "violations": 0
-  },
-  "previousRanks": {
-    "hundos": 3,
-    "performance": 3,
-    "accessibility": 3,
-    "cumulative": 3
   }
 }

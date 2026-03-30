@@ -62,11 +62,5 @@
   "axe": {
     "passes": 736,
     "violations": 2
-  },
-  "previousRanks": {
-    "hundos": 2,
-    "performance": 1,
-    "accessibility": 1,
-    "cumulative": 2
   }
 }

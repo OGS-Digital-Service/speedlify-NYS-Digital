@@ -71,8 +71,20 @@
                             }"
                     >
                     
-                        <a href="/sample/" class="nysds-global-link">
+                        <a href="/digital-sites/" class="nysds-global-link">
                             NYS Digital Sites
+                        </a>
+                    
+                </li>
+            
+                <li class="nysds-global-list-item"
+                    x-data="{
+                                dropdown: false
+                            }"
+                    >
+                    
+                        <a href="/ogs/" class="nysds-global-link">
+                            NYS OGS Sites
                         </a>
                     
                 </li>
@@ -83,7 +95,42 @@
 		</header>
 
 		<main>
-			<div class="leaderboard-wrapper">
+<style>
+.nysds-hero-background-image {
+    
+    background-image: url('https://its.ny.gov/sites/g/files/oee1301/files/styles/wide_lead/public/media/2024/02/digital-storage-hero.png?h=df67fb46&amp;itok=qKyYzHYk');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+</style>
+<div class="nysds-hero-container nysds-hero-background-image ">
+    <div class="nysds-hero-information">
+        
+            <p class="nysds-hero-date">2026</p>
+        
+        
+            <p class="nysds-hero-headline">New York State backed by Speedlify</p>
+        
+            <h2 class="nysds-hero-title">Digital Services Performance Test</h2>
+        
+            <p class="nysds-hero-description">Connect your data, customize your dashboards and share insights across your organization with the NYS Digital Performance Hub.</p>
+        
+        
+        <ul class="nysds-hero-links-list">
+            
+                <li>
+                    <a class="nysds-hero-link" href="" ></a>
+                    <span class="nysds-hero-link-arrow" aria-hidden="true"></span>  
+                </li>
+            
+        </ul>
+        
+    </div>
+</div>
+
+		<div class="leaderboard-wrapper">
 	<table class="leaderboard">
 		<thead>
 			<tr>
@@ -112,7 +159,7 @@
 				<td class="leaderboard-hide-md">
 					<img src="https://v1.builtwith.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fparking/image/host/" width="60" height="60" alt="Hosting avatar for ogs.ny.gov/parking" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
-				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/parking","requestedUrl":"https://ogs.ny.gov/parking","timestamp":1774455624046,"ranks":{"hundos":1,"performance":2,"accessibility":5,"cumulative":1},"lighthouse":{"version":"12.8.2","performance":0.6,"accessibility":0.93,"bestPractices":1,"seo":1,"total":353},"firstContentfulPaint":4532.3745,"speedIndex":4532.3745,"largestContentfulPaint":15852.494499999999,"totalBlockingTime":0,"cumulativeLayoutShift":0.11812399434098561,"timeToInteractive":15933.3525,"maxPotentialFirstInputDelay":49,"timeToFirstByte":149.47200000000004,"weight":{"summary":"117 requests • 3 MiB","total":3161388,"image":901626,"imageCount":7,"script":698160,"scriptCount":58,"document":12866,"font":942588,"fontCount":11,"stylesheet":581177,"stylesheetCount":27,"thirdParty":348240,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":4,"+weight.total":2,"-weight.document":1,"+weight.document":5,"-weight.script":5,"+weight.script":1,"-weight.image":4,"+weight.image":2,"-weight.font":3,"+weight.font":3,"+weight.fontCount":1,"-timeToFirstByte":5,"-totalBlockingTime":1,"-largestContentfulPaint":3},"axe":{"passes":58,"violations":4}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">353</span><div class="sparkline">
+				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/parking","requestedUrl":"https://ogs.ny.gov/parking","timestamp":1774896137715,"ranks":{"hundos":1,"performance":2,"accessibility":4,"cumulative":1},"lighthouse":{"version":"12.8.2","performance":0.6,"accessibility":0.93,"bestPractices":1,"seo":1,"total":353},"firstContentfulPaint":4592.753000000001,"speedIndex":4592.753000000001,"largestContentfulPaint":14468.580999999998,"totalBlockingTime":0,"cumulativeLayoutShift":0.11812399434098561,"timeToInteractive":14551.5078,"maxPotentialFirstInputDelay":48,"timeToFirstByte":53.041000000000004,"weight":{"summary":"117 requests • 3 MiB","total":3161381,"image":901618,"imageCount":7,"script":698161,"scriptCount":58,"document":12882,"font":942689,"fontCount":11,"stylesheet":581229,"stylesheetCount":27,"thirdParty":348034,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":4,"+weight.total":2,"-weight.document":2,"+weight.document":4,"-weight.script":5,"+weight.script":1,"-weight.image":4,"+weight.image":2,"-weight.font":5,"+weight.font":1,"+weight.fontCount":1,"-timeToFirstByte":4,"-totalBlockingTime":1,"-largestContentfulPaint":4},"axe":{"passes":860,"violations":3}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">353</span><div class="sparkline">
 	<div class="y-axis" aria-hidden="true">
 		<div>0</div>
 		<div>400</div>
@@ -125,14 +172,14 @@
 		<title>Sparkline ranging between 353 and 353.</title>
 		<path
 			fill="transparent"
-			stroke="url(#3383dp9)" d="M 0,4.7 L 70,4.7"
+			stroke="url(#4bxbdpa)" d="M 0,4.7 L 35,4.7 L 70,4.7"
 		/>
-		<linearGradient id="3383dp9" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="4bxbdpa" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:20:24.046Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:24.046Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:24.046Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-hide-sm"><div class="sparkline">
@@ -148,14 +195,14 @@
 		<title>Sparkline ranging between 3M and 3M.</title>
 		<path
 			fill="transparent"
-			stroke="#d151ff" d="M 0,0 L 70,0"
+			stroke="#d151ff" d="M 0,0 L 35,0 L 70,0"
 		/>
 		
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:20:24.046Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:24.046Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:24.046Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-data-right"><a href="#details-70c70541" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
@@ -182,6 +229,38 @@
 										</tr>
 									</thead>
 									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td class="results-bool">🥇</td>
+											<td>#1</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="60">60</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4592.753000000001&SI=4592.753000000001&LCP=14468.580999999998&TTI=14551.5078&TBT=0&CLS=0.11812399434098561&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="93">93</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool">🚫</td>
+											<td>3</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td class="results-bool">🥇</td>
+											<td>#1</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="60">60</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4577.6425&SI=4577.6425&LCP=14516.809&TTI=14600.26765&TBT=0&CLS=0.11754415175708305&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="93">93</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool">🚫</td>
+											<td>3</td>
+										</tr>
 										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td class="results-bool">🥇</td>
@@ -226,6 +305,42 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14468.580999999998">14.47s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="48">48ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="0">0ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4592.753000000001">4.59s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4592.753000000001">4.59s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14551.5078">14.55s</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14516.809">14.52s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="49">49ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="0">0ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4577.6425">4.58s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4577.6425">4.58s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14600.26765">14.60s</td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
 											<td data-numeric-value="15852.494499999999">15.85s</td>
@@ -269,6 +384,26 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td data-numeric-value="3087.2861328125"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="12.580078125"><span class="filesize">13<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="567.6064453125"><span class="filesize">568<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×27</span></td>
+											<td data-numeric-value="681.7978515625"><span class="filesize">682<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×58</span></td>
+											<td data-numeric-value="880.486328125"><span class="filesize">880<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.5947265625"><span class="filesize">921<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="339.876953125"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td data-numeric-value="3087.267578125"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="12.57421875"><span class="filesize">13<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="567.3955078125"><span class="filesize">567<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×27</span></td>
+											<td data-numeric-value="682.025390625"><span class="filesize">682<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×58</span></td>
+											<td data-numeric-value="880.5107421875"><span class="filesize">881<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.3359375"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="339.87890625"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td data-numeric-value="3087.29296875"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
 											<td data-numeric-value="12.564453125"><span class="filesize">13<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
@@ -287,197 +422,9 @@
 				</td>
 			</tr>
 			
-			<tr class="leaderboard-list-entry" id="site-6917627c">
-				<td class="leaderboard-number"><a href="#site-6917627c" class="leaderboard-directlink"><span>#</span>2</a></td>
-				<td class="leaderboard-hide-md leaderboard-trophies">🥈
-				</td>
-				<td class="leaderboard-url"><a href="https://ogs.ny.gov/procurement/ogs-centralized-contracts-list">
-						<img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fprocurement%2Fogs-centralized-contracts-list/" width="150" height="150" alt="IndieWeb Avatar for ogs.ny.gov/procurement/ogs-centralized-contracts-list" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
-						<code class="url">ogs.ny.gov/procurement/ogs-centralized-contracts-list</code></a></td>
-				<td class="leaderboard-hide-md">
-					<img src="https://v1.generator.11ty.dev/image/https%3A%2F%2Fogs.ny.gov%2Fprocurement%2Fogs-centralized-contracts-list/" width="60" height="60" alt="Generator for ogs.ny.gov/procurement/ogs-centralized-contracts-list" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
-				</td>
-				<td class="leaderboard-hide-md">
-					<img src="https://v1.builtwith.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fprocurement%2Fogs-centralized-contracts-list/image/host/" width="60" height="60" alt="Hosting avatar for ogs.ny.gov/procurement/ogs-centralized-contracts-list" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
-				</td>
-				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/procurement/ogs-centralized-contracts-list","requestedUrl":"https://ogs.ny.gov/procurement/ogs-centralized-contracts-list","timestamp":1774455615301,"ranks":{"hundos":2,"performance":1,"accessibility":1,"cumulative":2},"lighthouse":{"version":"12.8.2","performance":0.63,"accessibility":0.95,"bestPractices":1,"seo":0.92,"total":350},"firstContentfulPaint":4658.4515,"speedIndex":4658.4515,"largestContentfulPaint":12041.057999999999,"totalBlockingTime":9,"cumulativeLayoutShift":0.0013021736851662928,"timeToInteractive":13970.79035,"maxPotentialFirstInputDelay":68,"timeToFirstByte":33.894,"weight":{"summary":"93 requests • 2.5 MiB","total":2667907,"image":423338,"imageCount":7,"script":673035,"scriptCount":36,"document":25356,"font":942457,"fontCount":11,"stylesheet":578789,"stylesheetCount":25,"thirdParty":348210,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":1,"+weight.total":5,"-weight.document":5,"+weight.document":1,"-weight.script":1,"+weight.script":5,"-weight.image":1,"+weight.image":5,"-weight.font":1,"+weight.font":5,"+weight.fontCount":1,"-timeToFirstByte":2,"-totalBlockingTime":1,"-largestContentfulPaint":1},"axe":{"passes":58,"violations":4}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">350</span><div class="sparkline">
-	<div class="y-axis" aria-hidden="true">
-		<div>0</div>
-		<div>400</div>
-	</div>
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		preserveAspectRatio="none"
-		viewBox="0 0 70 40"
-	>
-		<title>Sparkline ranging between 350 and 350.</title>
-		<path
-			fill="transparent"
-			stroke="url(#1q2izjp)" d="M 0,5 L 70,5"
-		/>
-		<linearGradient id="1q2izjp" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
-	</svg>
-	
-	<div class="x-axis">
-		<time datetime="2026-03-25T16:20:15.301Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:15.301Z">Mar 25</time>
-	</div>
-</div></td>
-				<td class="leaderboard-hide-sm"><div class="sparkline">
-	<div class="y-axis" aria-hidden="true">
-		<div>0</div>
-		<div>3M</div>
-	</div>
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		preserveAspectRatio="none"
-		viewBox="0 0 70 40"
-	>
-		<title>Sparkline ranging between 3M and 3M.</title>
-		<path
-			fill="transparent"
-			stroke="#d151ff" d="M 0,0 L 70,0"
-		/>
-		
-	</svg>
-	
-	<div class="x-axis">
-		<time datetime="2026-03-25T16:20:15.301Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:15.301Z">Mar 25</time>
-	</div>
-</div></td>
-				<td class="leaderboard-data-right"><a href="#details-6917627c" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
-			</tr>
-			<tr class="leaderboard-list-entry-details">
-				<td colspan="8">
-					<details class="leaderboard-details" id="details-6917627c">
-						<summary>Show Data</summary>
-						<div class="layout color--lighthouse">
-							<div class="tablewrap">
-								<table data-make-chart class="results">
-									<thead>
-										<tr>
-											<th rowspan="2" class="results-date">Date</th>
-											<th rowspan="2" colspan="2">Rank</th>
-											<th colspan="9">Lighthouse</th>
-											<th colspan="2" rowspan="2">Axe</th>
-										</tr>
-										<tr>
-											<th class="results-series-a" colspan="3"><abbr title="Performance">Perf</abbr></th>
-											<th class="results-series-b" colspan="2"><abbr title="Accessibility">A11Y</abbr></th>
-											<th class="results-series-c" colspan="2">Best Practices</th>
-											<th class="results-series-d" colspan="2">SEO</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
-											<td class="results-bool">🥈</td>
-											<td>#2</td>
-											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
-											<td data-numeric-value="63">63</td>
-											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4658.4515&SI=4658.4515&LCP=12041.057999999999&TTI=13970.79035&TBT=9&CLS=0.0013021736851662928&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
-											<td class="results-bool"></td>
-											<td data-numeric-value="95">95</td>
-											<td class="results-bool"></td>
-											<td data-numeric-value="100">100</td>
-											<td class="results-bool"></td>
-											<td data-numeric-value="92">92</td>
-											<td class="results-bool">🚫</td>
-											<td>4</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<div data-js-only class="ct-chart ct-double-octave"></div>
-						</div>
-
-						<div class="layout color--vitals">
-							<div class="tablewrap">
-								<table data-make-chart class="results">
-									<thead>
-										<tr>
-											<th rowspan="2" class="results-date">Date</th>
-											<th colspan="8">Core Web Vitals</th>
-											<th colspan="6">Web Vitals</th>
-										</tr>
-										<tr>
-											<th class="results-series-a" colspan="2"><abbr title="Largest Contentful Paint">LCP</abbr></th>
-											<th class="results-series-b" colspan="2">Max <span class="leaderboard-hide-sm">Potential </span><abbr title="First Input Delay">FID</abbr></th>
-											<th class="results-series-c" colspan="2"><abbr title="Total Blocking Time">TBT</abbr></th>
-											<th colspan="2"><abbr title="Cumulative Layout Shift">CLS</abbr></th>
-
-											<th class="results-series-d" colspan="2"><abbr title="First Contentful Paint">FCP</abbr></th>
-											<th class="results-series-e" colspan="2"><abbr title="Speed Index">SI</abbr></th>
-											<th class="results-series-f" colspan="2"><abbr title="Time to Interactive">TTI</abbr></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
-											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
-											<td data-numeric-value="12041.057999999999">12.04s</td>
-											
-											<td class="results-bool"></td>
-											<td data-numeric-value="68">68ms</td>
-											<td class="results-bool"></td>
-											<td data-numeric-value="9">9ms</td>
-											<td class="results-bool"></td>
-											<td>0.00</td>
-											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
-											<td data-numeric-value="4658.4515">4.66s</td>
-											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
-											<td data-numeric-value="4658.4515">4.66s</td>
-											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
-											<td data-numeric-value="13970.79035">13.97s</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<div data-js-only class="ct-chart ct-double-octave"></div>
-						</div>
-
-						<div class="layout color--weight">
-							<div class="tablewrap">
-								<table data-make-chart class="results">
-									<thead>
-										<tr>
-											<th rowspan="2" class="results-date">Date</th>
-											<th colspan="7">Weight</th>
-										</tr>
-										<tr>
-											<th class="results-series-a">Total</th>
-											<th class="results-series-b">HTML</th>
-											<th class="results-series-c"><abbr title="Cascading Style Sheets">CSS</abbr></th>
-											<th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
-											<th class="results-series-e">Images</th>
-											<th class="results-series-f">Fonts</th>
-											<th>Third Party</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
-											<td data-numeric-value="2605.3779296875"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
-											<td data-numeric-value="24.76171875"><span class="filesize">25<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
-											<td data-numeric-value="565.2236328125"><span class="filesize">565<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×25</span></td>
-											<td data-numeric-value="657.2607421875"><span class="filesize">657<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×36</span></td>
-											<td data-numeric-value="413.416015625"><span class="filesize">413<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
-											<td data-numeric-value="920.3681640625"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
-											<td data-numeric-value="340.048828125"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<div data-js-only class="ct-chart ct-double-octave"></div>
-						</div>
-					</details>
-				</td>
-			</tr>
-			
 			<tr class="leaderboard-list-entry" id="site-36bfff17">
-				<td class="leaderboard-number"><a href="#site-36bfff17" class="leaderboard-directlink"><span>#</span>3</a></td>
-				<td class="leaderboard-hide-md leaderboard-trophies">🥉
+				<td class="leaderboard-number"><a href="#site-36bfff17" class="leaderboard-directlink"><span>#</span>2</a></td>
+				<td class="leaderboard-hide-md leaderboard-trophies">🥈
 				</td>
 				<td class="leaderboard-url"><a href="https://ogs.ny.gov/procurement">
 						<img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fprocurement/" width="150" height="150" alt="IndieWeb Avatar for ogs.ny.gov/procurement" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
@@ -488,7 +435,7 @@
 				<td class="leaderboard-hide-md">
 					<img src="https://v1.builtwith.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fprocurement/image/host/" width="60" height="60" alt="Hosting avatar for ogs.ny.gov/procurement" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
-				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/procurement","requestedUrl":"https://ogs.ny.gov/procurement","timestamp":1774455632608,"ranks":{"hundos":3,"performance":3,"accessibility":2,"cumulative":3},"lighthouse":{"version":"12.8.2","performance":0.6,"accessibility":0.94,"bestPractices":1,"seo":0.92,"total":346},"firstContentfulPaint":4546.9135,"speedIndex":4546.9135,"largestContentfulPaint":13225.004499999995,"totalBlockingTime":0,"cumulativeLayoutShift":0.11817047053251159,"timeToInteractive":13248.458799999997,"maxPotentialFirstInputDelay":50,"timeToFirstByte":65.15199999999999,"weight":{"summary":"97 requests • 2.7 MiB","total":2800698,"image":567439,"imageCount":10,"script":674403,"scriptCount":37,"document":12867,"font":942470,"fontCount":11,"stylesheet":578575,"stylesheetCount":25,"thirdParty":348722,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":2,"+weight.total":4,"-weight.document":2,"+weight.document":4,"-weight.script":2,"+weight.script":4,"-weight.image":2,"+weight.image":4,"-weight.font":2,"+weight.font":4,"+weight.fontCount":1,"-timeToFirstByte":4,"-totalBlockingTime":1,"-largestContentfulPaint":2},"axe":{"passes":58,"violations":4}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">346</span><div class="sparkline">
+				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/procurement","requestedUrl":"https://ogs.ny.gov/procurement","timestamp":1774896145967,"ranks":{"hundos":2,"performance":1,"accessibility":1,"cumulative":2},"lighthouse":{"version":"12.8.2","performance":0.6,"accessibility":0.94,"bestPractices":1,"seo":0.92,"total":346},"firstContentfulPaint":4519.6140000000005,"speedIndex":4519.6140000000005,"largestContentfulPaint":13305.721250000002,"totalBlockingTime":0.5,"cumulativeLayoutShift":0.1180694472914075,"timeToInteractive":13355.232525000001,"maxPotentialFirstInputDelay":51,"timeToFirstByte":53.360000000000014,"weight":{"summary":"97 requests • 2.7 MiB","total":2800526,"image":567349,"imageCount":10,"script":674040,"scriptCount":37,"document":12876,"font":942604,"fontCount":11,"stylesheet":578629,"stylesheetCount":25,"thirdParty":348413,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":2,"+weight.total":4,"-weight.document":1,"+weight.document":5,"-weight.script":2,"+weight.script":4,"-weight.image":2,"+weight.image":4,"-weight.font":2,"+weight.font":4,"+weight.fontCount":1,"-timeToFirstByte":5,"-totalBlockingTime":1,"-largestContentfulPaint":2},"axe":{"passes":736,"violations":2}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">346</span><div class="sparkline">
 	<div class="y-axis" aria-hidden="true">
 		<div>0</div>
 		<div>400</div>
@@ -501,14 +448,14 @@
 		<title>Sparkline ranging between 346 and 346.</title>
 		<path
 			fill="transparent"
-			stroke="url(#13c6r4j)" d="M 0,5.4 L 70,5.4"
+			stroke="url(#2lbj7ak)" d="M 0,5.4 L 35,5.4 L 70,5.4"
 		/>
-		<linearGradient id="13c6r4j" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="2lbj7ak" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:20:32.608Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:32.608Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:32.608Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-hide-sm"><div class="sparkline">
@@ -524,14 +471,14 @@
 		<title>Sparkline ranging between 3M and 3M.</title>
 		<path
 			fill="transparent"
-			stroke="#d151ff" d="M 0,0 L 70,0"
+			stroke="#d151ff" d="M 0,0 L 35,0 L 70,0"
 		/>
 		
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:20:32.608Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:32.608Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:32.608Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-data-right"><a href="#details-36bfff17" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
@@ -558,6 +505,38 @@
 										</tr>
 									</thead>
 									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td class="results-bool">🥈</td>
+											<td>#2</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="60">60</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4519.6140000000005&SI=4519.6140000000005&LCP=13305.721250000002&TTI=13355.232525000001&TBT=0.5&CLS=0.1180694472914075&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="94">94</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>2</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td class="results-bool">🥈</td>
+											<td>#2</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="60">60</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4527.575999999999&SI=4527.575999999999&LCP=13345.743250000007&TTI=13395.162525000003&TBT=0.5&CLS=0.11914386515185642&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="94">94</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>2</td>
+										</tr>
 										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td class="results-bool">🥉</td>
@@ -602,6 +581,42 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="13305.721250000002">13.31s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="51">51ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="0.5">1ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4519.6140000000005">4.52s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4519.6140000000005">4.52s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="13355.232525000001">13.36s</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="13345.743250000007">13.35s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="51">51ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="0.5">1ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4527.575999999999">4.53s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4527.575999999999">4.53s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="13395.162525000003">13.40s</td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
 											<td data-numeric-value="13225.004499999995">13.23s</td>
@@ -645,6 +660,26 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td data-numeric-value="2734.888671875"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="12.57421875"><span class="filesize">13<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="565.0673828125"><span class="filesize">565<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×25</span></td>
+											<td data-numeric-value="658.2421875"><span class="filesize">658<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×37</span></td>
+											<td data-numeric-value="554.0517578125"><span class="filesize">554<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×10</span></td>
+											<td data-numeric-value="920.51171875"><span class="filesize">921<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="340.2470703125"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td data-numeric-value="2735.0234375"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="12.5751953125"><span class="filesize">13<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="565.154296875"><span class="filesize">565<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×25</span></td>
+											<td data-numeric-value="658.2734375"><span class="filesize">658<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×37</span></td>
+											<td data-numeric-value="553.90234375"><span class="filesize">554<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×10</span></td>
+											<td data-numeric-value="920.7861328125"><span class="filesize">921<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="340.23046875"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td data-numeric-value="2735.056640625"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
 											<td data-numeric-value="12.5654296875"><span class="filesize">13<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
@@ -653,6 +688,282 @@
 											<td data-numeric-value="554.1396484375"><span class="filesize">554<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×10</span></td>
 											<td data-numeric-value="920.380859375"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
 											<td data-numeric-value="340.548828125"><span class="filesize">341<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div data-js-only class="ct-chart ct-double-octave"></div>
+						</div>
+					</details>
+				</td>
+			</tr>
+			
+			<tr class="leaderboard-list-entry" id="site-6917627c">
+				<td class="leaderboard-number"><a href="#site-6917627c" class="leaderboard-directlink"><span>#</span>3</a></td>
+				<td class="leaderboard-hide-md leaderboard-trophies">🥉
+				</td>
+				<td class="leaderboard-url"><a href="https://ogs.ny.gov/procurement/ogs-centralized-contracts-list">
+						<img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fprocurement%2Fogs-centralized-contracts-list/" width="150" height="150" alt="IndieWeb Avatar for ogs.ny.gov/procurement/ogs-centralized-contracts-list" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
+						<code class="url">ogs.ny.gov/procurement/ogs-centralized-contracts-list</code></a></td>
+				<td class="leaderboard-hide-md">
+					<img src="https://v1.generator.11ty.dev/image/https%3A%2F%2Fogs.ny.gov%2Fprocurement%2Fogs-centralized-contracts-list/" width="60" height="60" alt="Generator for ogs.ny.gov/procurement/ogs-centralized-contracts-list" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
+				</td>
+				<td class="leaderboard-hide-md">
+					<img src="https://v1.builtwith.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fprocurement%2Fogs-centralized-contracts-list/image/host/" width="60" height="60" alt="Hosting avatar for ogs.ny.gov/procurement/ogs-centralized-contracts-list" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
+				</td>
+				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/procurement/ogs-centralized-contracts-list","requestedUrl":"https://ogs.ny.gov/procurement/ogs-centralized-contracts-list","timestamp":1774896128524,"ranks":{"hundos":3,"performance":3,"accessibility":2,"cumulative":3},"lighthouse":{"version":"12.8.2","performance":0.59,"accessibility":0.94,"bestPractices":1,"seo":0.92,"total":345},"firstContentfulPaint":4732.898499999999,"speedIndex":4732.898499999999,"largestContentfulPaint":12831.000999999998,"totalBlockingTime":10.5,"cumulativeLayoutShift":0.11751728389168035,"timeToInteractive":15205.49845,"maxPotentialFirstInputDelay":71,"timeToFirstByte":30.075000000000003,"weight":{"summary":"93 requests • 2.5 MiB","total":2668253,"image":423465,"imageCount":7,"script":673254,"scriptCount":36,"document":25468,"font":942426,"fontCount":11,"stylesheet":578633,"stylesheetCount":25,"thirdParty":348432,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":1,"+weight.total":5,"-weight.document":5,"+weight.document":1,"-weight.script":1,"+weight.script":5,"-weight.image":1,"+weight.image":5,"-weight.font":1,"+weight.font":5,"+weight.fontCount":1,"-timeToFirstByte":1,"-totalBlockingTime":3,"-largestContentfulPaint":1},"axe":{"passes":1568,"violations":3}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">345</span><div class="sparkline">
+	<div class="y-axis" aria-hidden="true">
+		<div>0</div>
+		<div>400</div>
+	</div>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		preserveAspectRatio="none"
+		viewBox="0 0 70 40"
+	>
+		<title>Sparkline ranging between 345 and 350.</title>
+		<path
+			fill="transparent"
+			stroke="url(#306ctka)" d="M 0,5 L 35,5.5 L 70,5.5"
+		/>
+		<linearGradient id="306ctka" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+	</svg>
+	
+	<div class="x-axis">
+		<time datetime="2026-03-25T16:20:15.301Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:15.301Z">Mar 30</time>
+	</div>
+</div></td>
+				<td class="leaderboard-hide-sm"><div class="sparkline">
+	<div class="y-axis" aria-hidden="true">
+		<div>0</div>
+		<div>3M</div>
+	</div>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		preserveAspectRatio="none"
+		viewBox="0 0 70 40"
+	>
+		<title>Sparkline ranging between 3M and 3M.</title>
+		<path
+			fill="transparent"
+			stroke="#d151ff" d="M 0,0 L 35,0 L 70,0"
+		/>
+		
+	</svg>
+	
+	<div class="x-axis">
+		<time datetime="2026-03-25T16:20:15.301Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:15.301Z">Mar 30</time>
+	</div>
+</div></td>
+				<td class="leaderboard-data-right"><a href="#details-6917627c" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
+			</tr>
+			<tr class="leaderboard-list-entry-details">
+				<td colspan="8">
+					<details class="leaderboard-details" id="details-6917627c">
+						<summary>Show Data</summary>
+						<div class="layout color--lighthouse">
+							<div class="tablewrap">
+								<table data-make-chart class="results">
+									<thead>
+										<tr>
+											<th rowspan="2" class="results-date">Date</th>
+											<th rowspan="2" colspan="2">Rank</th>
+											<th colspan="9">Lighthouse</th>
+											<th colspan="2" rowspan="2">Axe</th>
+										</tr>
+										<tr>
+											<th class="results-series-a" colspan="3"><abbr title="Performance">Perf</abbr></th>
+											<th class="results-series-b" colspan="2"><abbr title="Accessibility">A11Y</abbr></th>
+											<th class="results-series-c" colspan="2">Best Practices</th>
+											<th class="results-series-d" colspan="2">SEO</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td class="results-bool">🥉</td>
+											<td>#3</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="59">59</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4732.898499999999&SI=4732.898499999999&LCP=12831.000999999998&TTI=15205.49845&TBT=10.5&CLS=0.11751728389168035&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="94">94</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>3</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td class="results-bool"></td>
+											<td>#4</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="59">59</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4683.043&SI=4683.043&LCP=12634.115000000002&TTI=14035.228900000006&TBT=11&CLS=0.11766415140273216&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="94">94</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>3</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
+											<td class="results-bool">🥈</td>
+											<td>#2</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="63">63</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4658.4515&SI=4658.4515&LCP=12041.057999999999&TTI=13970.79035&TBT=9&CLS=0.0013021736851662928&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="95">95</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>4</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div data-js-only class="ct-chart ct-double-octave"></div>
+						</div>
+
+						<div class="layout color--vitals">
+							<div class="tablewrap">
+								<table data-make-chart class="results">
+									<thead>
+										<tr>
+											<th rowspan="2" class="results-date">Date</th>
+											<th colspan="8">Core Web Vitals</th>
+											<th colspan="6">Web Vitals</th>
+										</tr>
+										<tr>
+											<th class="results-series-a" colspan="2"><abbr title="Largest Contentful Paint">LCP</abbr></th>
+											<th class="results-series-b" colspan="2">Max <span class="leaderboard-hide-sm">Potential </span><abbr title="First Input Delay">FID</abbr></th>
+											<th class="results-series-c" colspan="2"><abbr title="Total Blocking Time">TBT</abbr></th>
+											<th colspan="2"><abbr title="Cumulative Layout Shift">CLS</abbr></th>
+
+											<th class="results-series-d" colspan="2"><abbr title="First Contentful Paint">FCP</abbr></th>
+											<th class="results-series-e" colspan="2"><abbr title="Speed Index">SI</abbr></th>
+											<th class="results-series-f" colspan="2"><abbr title="Time to Interactive">TTI</abbr></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="12831.000999999998">12.83s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="71">71ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="10.5">11ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4732.898499999999">4.73s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4732.898499999999">4.73s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="15205.49845">15.21s</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="12634.115000000002">12.63s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="70">70ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="11">11ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4683.043">4.68s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4683.043">4.68s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14035.228900000006">14.04s</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="12041.057999999999">12.04s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="68">68ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="9">9ms</td>
+											<td class="results-bool"></td>
+											<td>0.00</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4658.4515">4.66s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4658.4515">4.66s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="13970.79035">13.97s</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div data-js-only class="ct-chart ct-double-octave"></div>
+						</div>
+
+						<div class="layout color--weight">
+							<div class="tablewrap">
+								<table data-make-chart class="results">
+									<thead>
+										<tr>
+											<th rowspan="2" class="results-date">Date</th>
+											<th colspan="7">Weight</th>
+										</tr>
+										<tr>
+											<th class="results-series-a">Total</th>
+											<th class="results-series-b">HTML</th>
+											<th class="results-series-c"><abbr title="Cascading Style Sheets">CSS</abbr></th>
+											<th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
+											<th class="results-series-e">Images</th>
+											<th class="results-series-f">Fonts</th>
+											<th>Third Party</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:42</span></code></td>
+											<td data-numeric-value="2605.7158203125"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="24.87109375"><span class="filesize">25<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="565.0712890625"><span class="filesize">565<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×25</span></td>
+											<td data-numeric-value="657.474609375"><span class="filesize">657<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×36</span></td>
+											<td data-numeric-value="413.5400390625"><span class="filesize">414<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.337890625"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="340.265625"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:05</span></code></td>
+											<td data-numeric-value="2605.357421875"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="24.875"><span class="filesize">25<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="565.193359375"><span class="filesize">565<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×25</span></td>
+											<td data-numeric-value="657.1015625"><span class="filesize">657<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×36</span></td>
+											<td data-numeric-value="413.3720703125"><span class="filesize">413<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.4072265625"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="339.7890625"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
+											<td data-numeric-value="2605.3779296875"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="24.76171875"><span class="filesize">25<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="565.2236328125"><span class="filesize">565<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×25</span></td>
+											<td data-numeric-value="657.2607421875"><span class="filesize">657<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×36</span></td>
+											<td data-numeric-value="413.416015625"><span class="filesize">413<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.3681640625"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="340.048828125"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
 										</tr>
 									</tbody>
 								</table>
@@ -676,7 +987,7 @@
 				<td class="leaderboard-hide-md">
 					<img src="https://v1.builtwith.11ty.dev/https%3A%2F%2Fogs.ny.gov%2Fdesign-construction/image/host/" width="60" height="60" alt="Hosting avatar for ogs.ny.gov/design-construction" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
-				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/design-construction","requestedUrl":"https://ogs.ny.gov/design-construction","timestamp":1774455603131,"ranks":{"hundos":4,"performance":4,"accessibility":4,"cumulative":4},"lighthouse":{"version":"12.8.2","performance":0.6,"accessibility":0.93,"bestPractices":1,"seo":0.92,"total":345},"firstContentfulPaint":4637.959999999999,"speedIndex":4637.959999999999,"largestContentfulPaint":15886.728500000001,"totalBlockingTime":0,"cumulativeLayoutShift":0.11823540145453114,"timeToInteractive":15958.529150000002,"maxPotentialFirstInputDelay":48,"timeToFirstByte":63.20100000000001,"weight":{"summary":"116 requests • 2.9 MiB","total":3088157,"image":827980,"imageCount":7,"script":697551,"scriptCount":57,"document":13933,"font":942678,"fontCount":11,"stylesheet":581091,"stylesheetCount":27,"thirdParty":348369,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":3,"+weight.total":3,"-weight.document":3,"+weight.document":3,"-weight.script":4,"+weight.script":2,"-weight.image":3,"+weight.image":3,"-weight.font":4,"+weight.font":2,"+weight.fontCount":1,"-timeToFirstByte":3,"-totalBlockingTime":1,"-largestContentfulPaint":4},"axe":{"passes":58,"violations":4}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">345</span><div class="sparkline">
+				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/design-construction","requestedUrl":"https://ogs.ny.gov/design-construction","timestamp":1774896119869,"ranks":{"hundos":4,"performance":4,"accessibility":5,"cumulative":4},"lighthouse":{"version":"12.8.2","performance":0.59,"accessibility":0.93,"bestPractices":1,"seo":0.92,"total":344},"firstContentfulPaint":4541.695,"speedIndex":4897.57116601508,"largestContentfulPaint":14362.21,"totalBlockingTime":0,"cumulativeLayoutShift":0.11895266452905959,"timeToInteractive":14436.675500000001,"maxPotentialFirstInputDelay":50,"timeToFirstByte":50.242999999999995,"weight":{"summary":"116 requests • 2.9 MiB","total":3088396,"image":828214,"imageCount":7,"script":697523,"scriptCount":57,"document":13945,"font":942651,"fontCount":11,"stylesheet":581144,"stylesheetCount":27,"thirdParty":348405,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":3,"+weight.total":3,"-weight.document":3,"+weight.document":3,"-weight.script":4,"+weight.script":2,"-weight.image":3,"+weight.image":3,"-weight.font":4,"+weight.font":2,"+weight.fontCount":1,"-timeToFirstByte":3,"-totalBlockingTime":1,"-largestContentfulPaint":3},"axe":{"passes":1083,"violations":5}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">344</span><div class="sparkline">
 	<div class="y-axis" aria-hidden="true">
 		<div>0</div>
 		<div>400</div>
@@ -686,17 +997,17 @@
 		preserveAspectRatio="none"
 		viewBox="0 0 70 40"
 	>
-		<title>Sparkline ranging between 345 and 345.</title>
+		<title>Sparkline ranging between 344 and 345.</title>
 		<path
 			fill="transparent"
-			stroke="url(#2oktjx)" d="M 0,5.5 L 70,5.5"
+			stroke="url(#q7q05t)" d="M 0,5.5 L 35,5.5 L 70,5.6"
 		/>
-		<linearGradient id="2oktjx" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="q7q05t" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:20:03.131Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:03.131Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:03.131Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-hide-sm"><div class="sparkline">
@@ -712,14 +1023,14 @@
 		<title>Sparkline ranging between 3M and 3M.</title>
 		<path
 			fill="transparent"
-			stroke="#d151ff" d="M 0,0 L 70,0"
+			stroke="#d151ff" d="M 0,0 L 35,0 L 70,0"
 		/>
 		
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:20:03.131Z">Mar 25</time>
-		<time datetime="2026-03-25T16:20:03.131Z">Mar 25</time>
+		<time datetime="2026-03-25T16:20:03.131Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-data-right"><a href="#details-f6a2d26b" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
@@ -746,6 +1057,38 @@
 										</tr>
 									</thead>
 									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:41</span></code></td>
+											<td class="results-bool"></td>
+											<td>#4</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="59">59</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4541.695&SI=4897.57116601508&LCP=14362.21&TTI=14436.675500000001&TBT=0&CLS=0.11895266452905959&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="93">93</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>5</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:04</span></code></td>
+											<td class="results-bool">🥉</td>
+											<td>#3</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="60">60</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4530.885&SI=4530.885&LCP=14126.607&TTI=14196.8196&TBT=0&CLS=0.11888713432858425&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="93">93</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="100">100</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="92">92</td>
+											<td class="results-bool">🚫</td>
+											<td>5</td>
+										</tr>
 										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td class="results-bool"></td>
@@ -790,6 +1133,42 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:41</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14362.21">14.36s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="50">50ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="0">0ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4541.695">4.54s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4897.57116601508">4.90s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14436.675500000001">14.44s</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:04</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14126.607">14.13s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="50">50ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="0">0ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4530.885">4.53s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4530.885">4.53s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14196.8196">14.20s</td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
 											<td data-numeric-value="15886.728500000001">15.89s</td>
@@ -833,6 +1212,26 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:41</span></code></td>
+											<td data-numeric-value="3016.01171875"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="13.6181640625"><span class="filesize">14<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="567.5234375"><span class="filesize">568<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×27</span></td>
+											<td data-numeric-value="681.1748046875"><span class="filesize">681<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×57</span></td>
+											<td data-numeric-value="808.802734375"><span class="filesize">809<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.5576171875"><span class="filesize">921<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="340.2392578125"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:04</span></code></td>
+											<td data-numeric-value="3015.5830078125"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="13.6171875"><span class="filesize">14<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="567.533203125"><span class="filesize">568<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×27</span></td>
+											<td data-numeric-value="680.9072265625"><span class="filesize">681<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×57</span></td>
+											<td data-numeric-value="808.60546875"><span class="filesize">809<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×7</span></td>
+											<td data-numeric-value="920.69140625"><span class="filesize">921<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="339.85546875"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:20</span></code></td>
 											<td data-numeric-value="3015.7783203125"><span class="filesize">3<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
 											<td data-numeric-value="13.6064453125"><span class="filesize">14<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
@@ -857,14 +1256,14 @@
 				</td>
 				<td class="leaderboard-url"><a href="https://ogs.ny.gov/">
 						<img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Fogs.ny.gov%2F/" width="150" height="150" alt="IndieWeb Avatar for ogs.ny.gov/" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
-						<code class="url">ogs.ny.gov/</code></a><span class="leaderboard-redirect-warn">Redirect from <code class="url">www.ogs.ny.gov/</code></span></td>
+						<code class="url">ogs.ny.gov/</code></a></td>
 				<td class="leaderboard-hide-md">
 					<img src="https://v1.generator.11ty.dev/image/https%3A%2F%2Fogs.ny.gov%2F/" width="60" height="60" alt="Generator for ogs.ny.gov/" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
 				<td class="leaderboard-hide-md">
 					<img src="https://v1.builtwith.11ty.dev/https%3A%2F%2Fogs.ny.gov%2F/image/host/" width="60" height="60" alt="Hosting avatar for ogs.ny.gov/" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
-				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/","requestedUrl":"https://www.ogs.ny.gov/","timestamp":1774455593772,"ranks":{"hundos":5,"performance":5,"accessibility":3,"cumulative":5},"lighthouse":{"version":"12.8.2","performance":0.56,"accessibility":0.93,"bestPractices":0.79,"seo":0.83,"total":311},"firstContentfulPaint":5900.69608,"speedIndex":5900.69608,"largestContentfulPaint":17078.9159,"totalBlockingTime":0,"cumulativeLayoutShift":0.11704985946225356,"timeToInteractive":17357.737466000002,"maxPotentialFirstInputDelay":50,"timeToFirstByte":30.939999999999998,"weight":{"summary":"127 requests • 3.6 MiB","total":3767922,"image":1505540,"imageCount":16,"script":697423,"scriptCount":57,"document":15467,"font":942904,"fontCount":11,"stylesheet":581140,"stylesheetCount":27,"thirdParty":348213,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":5,"+weight.total":1,"-weight.document":4,"+weight.document":2,"-weight.script":3,"+weight.script":3,"-weight.image":5,"+weight.image":1,"-weight.font":5,"+weight.font":1,"+weight.fontCount":1,"-timeToFirstByte":1,"-totalBlockingTime":1,"-largestContentfulPaint":5},"axe":{"passes":58,"violations":4}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">311</span><div class="sparkline">
+				<td class="leaderboard-score"><is-land on:visible><speedlify-score class="leaderboard-score-circles" raw-data='{"url":"https://ogs.ny.gov/","requestedUrl":"https://ogs.ny.gov/","timestamp":1774896111321,"ranks":{"hundos":5,"performance":5,"accessibility":3,"cumulative":5},"lighthouse":{"version":"12.8.2","performance":0.59,"accessibility":0.93,"bestPractices":0.96,"seo":0.85,"total":333},"firstContentfulPaint":4954.822000000001,"speedIndex":4954.822000000001,"largestContentfulPaint":15791.9935,"totalBlockingTime":1.5,"cumulativeLayoutShift":0.11704985946225356,"timeToInteractive":16064.99095,"maxPotentialFirstInputDelay":53,"timeToFirstByte":38.050000000000004,"weight":{"summary":"125 requests • 3.6 MiB","total":3767057,"image":1505605,"imageCount":16,"script":696889,"scriptCount":57,"document":15910,"font":942607,"fontCount":11,"stylesheet":581046,"stylesheetCount":27,"thirdParty":347777,"thirdPartyCount":5},"run":{"number":1,"total":1},"sidequests":{"-weight.total":5,"+weight.total":1,"-weight.document":4,"+weight.document":2,"-weight.script":3,"+weight.script":3,"-weight.image":5,"+weight.image":1,"-weight.font":3,"+weight.font":3,"+weight.fontCount":1,"-timeToFirstByte":2,"-totalBlockingTime":2,"-largestContentfulPaint":5},"axe":{"passes":1066,"violations":3}}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">333</span><div class="sparkline">
 	<div class="y-axis" aria-hidden="true">
 		<div>0</div>
 		<div>400</div>
@@ -874,17 +1273,17 @@
 		preserveAspectRatio="none"
 		viewBox="0 0 70 40"
 	>
-		<title>Sparkline ranging between 311 and 311.</title>
+		<title>Sparkline ranging between 311 and 333.</title>
 		<path
 			fill="transparent"
-			stroke="url(#2bnqqxx)" d="M 0,8.9 L 70,8.9"
+			stroke="url(#11b5y37)" d="M 0,8.9 L 35,6.7 L 70,6.7"
 		/>
-		<linearGradient id="2bnqqxx" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
+		<linearGradient id="11b5y37" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4e42" offset="0%" /><stop stop-color="#ff4e42" offset="30%" /><stop stop-color="#ffa400" offset="70%" /><stop stop-color="#ffa400" offset="85%" /><stop stop-color="#0cce6b" offset="95%" /><stop stop-color="#0cce6b" offset="100%" /></linearGradient>
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:19:53.772Z">Mar 25</time>
-		<time datetime="2026-03-25T16:19:53.772Z">Mar 25</time>
+		<time datetime="2026-03-25T16:19:53.772Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-hide-sm"><div class="sparkline">
@@ -900,14 +1299,14 @@
 		<title>Sparkline ranging between 4M and 4M.</title>
 		<path
 			fill="transparent"
-			stroke="#d151ff" d="M 0,0 L 70,0"
+			stroke="#d151ff" d="M 0,0 L 35,0 L 70,0"
 		/>
 		
 	</svg>
 	
 	<div class="x-axis">
 		<time datetime="2026-03-25T16:19:53.772Z">Mar 25</time>
-		<time datetime="2026-03-25T16:19:53.772Z">Mar 25</time>
+		<time datetime="2026-03-25T16:19:53.772Z">Mar 30</time>
 	</div>
 </div></td>
 				<td class="leaderboard-data-right"><a href="#details-15890389" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
@@ -934,6 +1333,38 @@
 										</tr>
 									</thead>
 									<tbody>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:41</span></code></td>
+											<td class="results-bool"></td>
+											<td>#5</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="59">59</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4954.822000000001&SI=4954.822000000001&LCP=15791.9935&TTI=16064.99095&TBT=1.5&CLS=0.11704985946225356&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="93">93</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="96">96</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="85">85</td>
+											<td class="results-bool">🚫</td>
+											<td>3</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:04</span></code></td>
+											<td class="results-bool"></td>
+											<td>#5</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="59">59</td>
+											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=4859.8060000000005&SI=4859.8060000000005&LCP=14758.4155&TTI=14943.511449999998&TBT=2.5&CLS=0.11657572678717304&FCI=&FMP=&device=mobile&version=12.8.2" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="93">93</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="96">96</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="85">85</td>
+											<td class="results-bool">🚫</td>
+											<td>3</td>
+										</tr>
 										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:19</span></code></td>
 											<td class="results-bool"></td>
@@ -978,6 +1409,42 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:41</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="15791.9935">15.79s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="53">53ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="1.5">2ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4954.822000000001">4.95s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4954.822000000001">4.95s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="16064.99095">16.06s</td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:04</span></code></td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14758.4155">14.76s</td>
+											
+											<td class="results-bool"></td>
+											<td data-numeric-value="55">55ms</td>
+											<td class="results-bool"></td>
+											<td data-numeric-value="2.5">3ms</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td>0.12</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="4859.8060000000005">4.86s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">⚠️</span></td>
+											<td data-numeric-value="4859.8060000000005">4.86s</td>
+											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
+											<td data-numeric-value="14943.511449999998">14.94s</td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:19</span></code></td>
 											<td class="results-bool"><span class="leaderboard-hide-sm">🚫</span></td>
 											<td data-numeric-value="17078.9159">17.08s</td>
@@ -1021,6 +1488,26 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:41</span></code></td>
+											<td data-numeric-value="3678.7666015625"><span class="filesize">4<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="15.537109375"><span class="filesize">16<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="567.427734375"><span class="filesize">567<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×27</span></td>
+											<td data-numeric-value="680.5556640625"><span class="filesize">681<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×57</span></td>
+											<td data-numeric-value="1470.3173828125"><span class="filesize">1<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span> <span class="count leaderboard-hide-sm">×16</span></td>
+											<td data-numeric-value="920.5146484375"><span class="filesize">921<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="339.6259765625"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
+											<td><code class="date">Mar 30 <span class="leaderboard-hide-md">14:04</span></code></td>
+											<td data-numeric-value="3679.134765625"><span class="filesize">4<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
+											<td data-numeric-value="15.5390625"><span class="filesize">16<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
+											<td data-numeric-value="567.48828125"><span class="filesize">567<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×27</span></td>
+											<td data-numeric-value="681.0126953125"><span class="filesize">681<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×57</span></td>
+											<td data-numeric-value="1470.185546875"><span class="filesize">1<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span> <span class="count leaderboard-hide-sm">×16</span></td>
+											<td data-numeric-value="920.4287109375"><span class="filesize">920<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×11</span></td>
+											<td data-numeric-value="339.8603515625"><span class="filesize">340<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span> <span class="count leaderboard-hide-sm">×5</span></td>
+										</tr>
+										<tr>
 											<td><code class="date">Mar 25 <span class="leaderboard-hide-md">12:19</span></code></td>
 											<td data-numeric-value="3679.611328125"><span class="filesize">4<span class="filesize-label-sm">M</span><span class="filesize-label-lg"> MiB</span></span></td>
 											<td data-numeric-value="15.1044921875"><span class="filesize">15<span class="filesize-label-sm">K</span><span class="filesize-label-lg"> KiB</span></span></td>
@@ -1063,32 +1550,51 @@
 		</div>
 	</dl>
 </div><!-- /leaderboard-wrapper -->
+
+
 <div class="cards-container">
     <h3 class="cards-heading">Digital Performance Test</h3>
-    <p class="cards-intro"></p>
+    <p class="cards-intro">Learn about the performance of New York State Digital Services official websites.</p>
         <div class="cards-wrapper">
         
             <div class="nysds-card">
                 
                 <div class="">
-                    <a href="/sample/" tabindex="-1" aria-hidden="true">
+                    <a href="/digital-sites/" tabindex="-1" aria-hidden="true">
                     <img class="card-image" src="https://www.governor.ny.gov/sites/default/files/2024-08/Governor%27sSeal1280x512_1.jpg" alt="new york state seal" />
                 </a>
                 </div>
                 
                 <div class="card-content">
                     <h4 class="card-title">
-                        <a class="card-link" href="/sample/">Sites Ready For Testing</a>
+                        <a class="card-link" href="/digital-sites/">Digital Government Performance Dashboard</a>
                     </h4>
                     
-                    <p class="card-description">Automated performance data results for New York State official websites.</p>
+                    <p class="card-description">Automated performance data results for New York State Digital Services official websites.</p>
+                    
+                </div>
+            </div>
+        
+            <div class="nysds-card">
+                
+                <div class="">
+                    <a href="/ogs/" tabindex="-1" aria-hidden="true">
+                    <img class="card-image" src="https://www.governor.ny.gov/sites/default/files/2024-08/Governor%27sSeal1280x512_1.jpg" alt="new york state seal" />
+                </a>
+                </div>
+                
+                <div class="card-content">
+                    <h4 class="card-title">
+                        <a class="card-link" href="/ogs/">Office of General Services Performance Dashboard</a>
+                    </h4>
+                    
+                    <p class="card-description">Automated performance data results for New York State Office of General Services official websites.</p>
                     
                 </div>
             </div>
         
         </div>
 </div>
-
 		</main>
 
 		<footer>

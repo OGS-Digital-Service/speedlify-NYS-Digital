@@ -1,12 +1,12 @@
 {
   "url": "https://online2.ogs.ny.gov/greencleaning/",
   "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
-  "timestamp": 1774896072373,
+  "timestamp": 1774893830546,
   "ranks": {
-    "hundos": 9,
-    "performance": 8,
+    "hundos": 7,
+    "performance": 6,
     "accessibility": 1,
-    "cumulative": 9
+    "cumulative": 7
   },
   "lighthouse": {
     "version": "12.8.2",
@@ -16,27 +16,27 @@
     "seo": 0.8,
     "total": 318
   },
-  "firstContentfulPaint": 8160.861000000001,
-  "speedIndex": 8160.861000000001,
-  "largestContentfulPaint": 10889.861000000003,
-  "totalBlockingTime": 586.9999999999991,
-  "cumulativeLayoutShift": 0.0013047159293040924,
-  "timeToInteractive": 13149.961000000003,
-  "maxPotentialFirstInputDelay": 658,
-  "timeToFirstByte": 18.40100000000001,
+  "firstContentfulPaint": 8156.239,
+  "speedIndex": 8156.239,
+  "largestContentfulPaint": 10576.238999999998,
+  "totalBlockingTime": 494,
+  "cumulativeLayoutShift": 0.10119710666108439,
+  "timeToInteractive": 12909.839,
+  "maxPotentialFirstInputDelay": 639.9999999999982,
+  "timeToFirstByte": 19.667,
   "weight": {
     "summary": "31 requests • 2 MiB",
-    "total": 2057987,
+    "total": 2058030,
     "image": 1063,
     "imageCount": 3,
-    "script": 726348,
+    "script": 726414,
     "scriptCount": 7,
     "document": 951611,
     "font": 282423,
     "fontCount": 4,
-    "stylesheet": 71324,
+    "stylesheet": 71301,
     "stylesheetCount": 4,
-    "thirdParty": 333985,
+    "thirdParty": 334051,
     "thirdPartyCount": 4
   },
   "run": {
@@ -44,29 +44,23 @@
     "total": 1
   },
   "sidequests": {
-    "-weight.total": 5,
+    "-weight.total": 3,
     "+weight.total": 5,
-    "-weight.document": 9,
+    "-weight.document": 7,
     "+weight.document": 1,
-    "-weight.script": 7,
+    "-weight.script": 6,
     "+weight.script": 2,
     "-weight.image": 1,
-    "+weight.image": 9,
+    "+weight.image": 7,
     "-weight.font": 3,
-    "+weight.font": 7,
-    "+weight.fontCount": 5,
+    "+weight.font": 5,
+    "+weight.fontCount": 4,
     "-timeToFirstByte": 2,
     "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 939,
     "violations": 0
-  },
-  "previousRanks": {
-    "hundos": 7,
-    "performance": 6,
-    "accessibility": 1,
-    "cumulative": 7
   }
 }
