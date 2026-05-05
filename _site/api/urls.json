@@ -1,11 +1,10 @@
 {
-  "https://www.ogs.ny.gov/": {
-    "requestedUrl": "https://www.ogs.ny.gov/",
+  "https://ogs.ny.gov/": {
+    "requestedUrl": "https://ogs.ny.gov/",
     "url": "https://ogs.ny.gov/",
     "hash": "15890389",
     "categories": [
-      "digital-sites",
-      "ogs"
+      "digital-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -32,26 +31,6 @@
     "requestedUrl": "https://nys-digital-service.netlify.app/",
     "url": "https://nys-digital-service.netlify.app/",
     "hash": "1003e3bc",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://ogs.ny.gov/procurement": {
-    "requestedUrl": "https://ogs.ny.gov/procurement",
-    "url": "https://ogs.ny.gov/procurement",
-    "hash": "36bfff17",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://www.governor.ny.gov/": {
-    "requestedUrl": "https://www.governor.ny.gov/",
-    "url": "https://www.governor.ny.gov/",
-    "hash": "597dddd1",
     "categories": [
       "digital-sites",
       "ogs"
@@ -88,16 +67,6 @@
     ],
     "vertical": "digital-sites"
   },
-  "https://ogs.ny.gov/parking": {
-    "requestedUrl": "https://ogs.ny.gov/parking",
-    "url": "https://ogs.ny.gov/parking",
-    "hash": "70c70541",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
   "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list": {
     "requestedUrl": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
     "url": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
@@ -108,10 +77,30 @@
     ],
     "vertical": "digital-sites"
   },
-  "https://ogs.ny.gov/design-construction": {
-    "requestedUrl": "https://ogs.ny.gov/design-construction",
-    "url": "https://ogs.ny.gov/design-construction",
-    "hash": "f6a2d26b",
+  "https://ogs.ny.gov/procurement": {
+    "requestedUrl": "https://ogs.ny.gov/procurement",
+    "url": "https://ogs.ny.gov/procurement",
+    "hash": "36bfff17",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://www.governor.ny.gov/": {
+    "requestedUrl": "https://www.governor.ny.gov/",
+    "url": "https://www.governor.ny.gov/",
+    "hash": "597dddd1",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://ogs.ny.gov/parking": {
+    "requestedUrl": "https://ogs.ny.gov/parking",
+    "url": "https://ogs.ny.gov/parking",
+    "hash": "70c70541",
     "categories": [
       "digital-sites",
       "ogs"
@@ -132,6 +121,16 @@
     "requestedUrl": "https://digital-service-analytics.netlify.app/",
     "url": "https://digital-service-analytics.netlify.app/",
     "hash": "edbae06e",
+    "categories": [
+      "digital-sites",
+      "ogs"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://ogs.ny.gov/design-construction": {
+    "requestedUrl": "https://ogs.ny.gov/design-construction",
+    "url": "https://ogs.ny.gov/design-construction",
+    "hash": "f6a2d26b",
     "categories": [
       "digital-sites",
       "ogs"

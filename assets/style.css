@@ -132,6 +132,7 @@ abbr {
 /* Leaderboard */
 
 .leaderboard-wrapper {
+	background-color: #000000;
 	margin-left: -.5rem;
 	margin-right: -.4375rem; /* 7px /16 */
 }
@@ -292,6 +293,7 @@ abbr {
 }
 .results th,
 .results td {
+	color: white;
 	padding: .25em;
 }
 @media (min-width: 25em) { /* 400px */
@@ -530,6 +532,7 @@ abbr {
 }
 .category-stats dt,
 .category-stats dd {
+	color: white;
 	flex-basis: 4.6875em; /* 150px /32 */
 }
 .category-stats dt {

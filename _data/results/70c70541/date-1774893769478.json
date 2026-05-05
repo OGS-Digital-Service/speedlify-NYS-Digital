@@ -1,10 +1,10 @@
 {
   "url": "https://ogs.ny.gov/parking",
   "requestedUrl": "https://ogs.ny.gov/parking",
-  "timestamp": 1774896137715,
+  "timestamp": 1774893916403,
   "ranks": {
     "hundos": 1,
-    "performance": 2,
+    "performance": 3,
     "accessibility": 4,
     "cumulative": 1
   },
@@ -16,27 +16,27 @@
     "seo": 1,
     "total": 353
   },
-  "firstContentfulPaint": 4592.753000000001,
-  "speedIndex": 4592.753000000001,
-  "largestContentfulPaint": 14468.580999999998,
+  "firstContentfulPaint": 4577.6425,
+  "speedIndex": 4577.6425,
+  "largestContentfulPaint": 14516.809,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.11812399434098561,
-  "timeToInteractive": 14551.5078,
-  "maxPotentialFirstInputDelay": 48,
-  "timeToFirstByte": 53.041000000000004,
+  "cumulativeLayoutShift": 0.11754415175708305,
+  "timeToInteractive": 14600.26765,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 57.49300000000001,
   "weight": {
     "summary": "117 requests • 3 MiB",
-    "total": 3161381,
-    "image": 901618,
+    "total": 3161362,
+    "image": 901643,
     "imageCount": 7,
-    "script": 698161,
+    "script": 698394,
     "scriptCount": 58,
-    "document": 12882,
-    "font": 942689,
+    "document": 12876,
+    "font": 942424,
     "fontCount": 11,
-    "stylesheet": 581229,
+    "stylesheet": 581013,
     "stylesheetCount": 27,
-    "thirdParty": 348034,
+    "thirdParty": 348036,
     "thirdPartyCount": 5
   },
   "run": {
@@ -46,27 +46,21 @@
   "sidequests": {
     "-weight.total": 4,
     "+weight.total": 2,
-    "-weight.document": 2,
-    "+weight.document": 4,
+    "-weight.document": 1,
+    "+weight.document": 5,
     "-weight.script": 5,
     "+weight.script": 1,
     "-weight.image": 4,
     "+weight.image": 2,
-    "-weight.font": 5,
-    "+weight.font": 1,
+    "-weight.font": 1,
+    "+weight.font": 5,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 4
   },
   "axe": {
     "passes": 860,
     "violations": 3
-  },
-  "previousRanks": {
-    "hundos": 1,
-    "performance": 3,
-    "accessibility": 4,
-    "cumulative": 1
   }
 }
