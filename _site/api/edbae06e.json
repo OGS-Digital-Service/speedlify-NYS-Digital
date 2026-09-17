@@ -1,42 +1,42 @@
 {
   "url": "https://digital-service-analytics.netlify.app/",
   "requestedUrl": "https://digital-service-analytics.netlify.app/",
-  "timestamp": 1774896050833,
+  "timestamp": 1789678312630,
   "ranks": {
-    "hundos": 5,
-    "performance": 4,
-    "accessibility": 3,
-    "cumulative": 5
+    "hundos": 3,
+    "performance": 1,
+    "accessibility": 4,
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.77,
+    "performance": 0.98,
     "accessibility": 1,
-    "bestPractices": 0.93,
+    "bestPractices": 0.75,
     "seo": 1,
-    "total": 370
+    "total": 373
   },
-  "firstContentfulPaint": 1555.8950000000004,
-  "speedIndex": 1555.8950000000004,
-  "largestContentfulPaint": 6371.814,
+  "firstContentfulPaint": 1695.0790000000002,
+  "speedIndex": 1958.4309020011397,
+  "largestContentfulPaint": 2249.2405,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 6371.814,
+  "cumulativeLayoutShift": 0.000020897757456412134,
+  "timeToInteractive": 2249.2405,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 20.250999999999998,
+  "timeToFirstByte": 628.924,
   "weight": {
-    "summary": "22 requests • 893.9 KiB",
-    "total": 915328,
-    "image": 448404,
+    "summary": "22 requests • 460.1 KiB",
+    "total": 471124,
+    "image": 0,
     "imageCount": 3,
-    "script": 17073,
+    "script": 20353,
     "scriptCount": 1,
-    "document": 3782,
-    "font": 416211,
+    "document": 4301,
+    "font": 416202,
     "fontCount": 7,
-    "stylesheet": 28232,
+    "stylesheet": 28392,
     "stylesheetCount": 8,
-    "thirdParty": 467081,
+    "thirdParty": 21957,
     "thirdPartyCount": 3
   },
   "run": {
@@ -50,17 +50,23 @@
     "+weight.document": 7,
     "-weight.script": 1,
     "+weight.script": 8,
-    "-weight.image": 4,
-    "+weight.image": 6,
+    "-weight.image": 1,
+    "+weight.image": 7,
     "-weight.font": 6,
-    "+weight.font": 4,
-    "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
+    "+weight.font": 2,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 9,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 4
+    "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 255,
+    "passes": 271,
     "violations": 0
+  },
+  "previousRanks": {
+    "hundos": 4,
+    "performance": 2,
+    "accessibility": 4,
+    "cumulative": 4
   }
 }

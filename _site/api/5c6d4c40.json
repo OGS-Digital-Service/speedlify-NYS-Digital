@@ -1,42 +1,42 @@
 {
   "url": "https://nys-digital-standards-report-cards.netlify.app/",
   "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
-  "timestamp": 1774896085753,
+  "timestamp": 1789678348273,
   "ranks": {
-    "hundos": 2,
-    "performance": 1,
-    "accessibility": 5,
-    "cumulative": 2
+    "hundos": 4,
+    "performance": 2,
+    "accessibility": 6,
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.92,
+    "performance": 0.94,
     "accessibility": 1,
-    "bestPractices": 0.93,
+    "bestPractices": 0.75,
     "seo": 1,
-    "total": 385
+    "total": 369
   },
-  "firstContentfulPaint": 1622.8280000000004,
-  "speedIndex": 1622.8280000000004,
-  "largestContentfulPaint": 3249.8059999999996,
+  "firstContentfulPaint": 2543.884,
+  "speedIndex": 2543.884,
+  "largestContentfulPaint": 2543.884,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.0004049458289812753,
-  "timeToInteractive": 3249.8059999999996,
+  "timeToInteractive": 2543.884,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 26.635000000000005,
+  "timeToFirstByte": 528.6320000000001,
   "weight": {
-    "summary": "15 requests • 270.9 KiB",
-    "total": 277447,
-    "image": 206683,
+    "summary": "15 requests • 73.2 KiB",
+    "total": 74913,
+    "image": 0,
     "imageCount": 4,
-    "script": 17123,
+    "script": 20396,
     "scriptCount": 2,
-    "document": 2432,
+    "document": 2890,
     "font": 35888,
     "fontCount": 1,
-    "stylesheet": 13755,
+    "stylesheet": 13893,
     "stylesheetCount": 5,
-    "thirdParty": 261248,
+    "thirdParty": 57844,
     "thirdPartyCount": 3
   },
   "run": {
@@ -50,12 +50,12 @@
     "+weight.document": 9,
     "-weight.script": 2,
     "+weight.script": 7,
-    "-weight.image": 3,
+    "-weight.image": 1,
     "+weight.image": 7,
     "-weight.font": 1,
-    "+weight.font": 9,
-    "+weight.fontCount": 6,
-    "-timeToFirstByte": 6,
+    "+weight.font": 7,
+    "+weight.fontCount": 5,
+    "-timeToFirstByte": 8,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 2
   },
@@ -64,9 +64,9 @@
     "violations": 0
   },
   "previousRanks": {
-    "hundos": 2,
-    "performance": 2,
-    "accessibility": 4,
-    "cumulative": 2
+    "hundos": 3,
+    "performance": 1,
+    "accessibility": 6,
+    "cumulative": 3
   }
 }

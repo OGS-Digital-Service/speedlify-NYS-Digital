@@ -1,72 +1,72 @@
 {
   "url": "https://www.ny.gov/",
-  "requestedUrl": "https://www.ny.gov/",
-  "timestamp": 1774896025309,
+  "requestedUrl": "https://ny.gov/",
+  "timestamp": 1789678410019,
   "ranks": {
-    "hundos": 1,
-    "performance": 2,
-    "accessibility": 7,
-    "cumulative": 1
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.9,
-    "accessibility": 0.96,
-    "bestPractices": 1,
-    "seo": 1,
-    "total": 386
+    "performance": 0.73,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.4,
+    "total": 302
   },
-  "firstContentfulPaint": 2312.7789999999995,
-  "speedIndex": 2766.746925273064,
-  "largestContentfulPaint": 3174.388999999999,
-  "totalBlockingTime": 7.5,
-  "cumulativeLayoutShift": 0.00048103532368654165,
-  "timeToInteractive": 8118.0825,
-  "maxPotentialFirstInputDelay": 54,
-  "timeToFirstByte": 22.651999999999994,
+  "firstContentfulPaint": 1733.1435000000001,
+  "speedIndex": 1733.1435000000001,
+  "largestContentfulPaint": 3992.858,
+  "totalBlockingTime": 537.5,
+  "cumulativeLayoutShift": 0.0027291666078381235,
+  "timeToInteractive": 4029.7080000000005,
+  "maxPotentialFirstInputDelay": 354,
+  "timeToFirstByte": 14.795,
   "weight": {
-    "summary": "52 requests • 2.7 MiB",
-    "total": 2785256,
-    "image": 1392341,
-    "imageCount": 16,
-    "script": 698322,
-    "scriptCount": 20,
-    "document": 14077,
-    "font": 557875,
-    "fontCount": 8,
-    "stylesheet": 119542,
-    "stylesheetCount": 4,
-    "thirdParty": 555323,
-    "thirdPartyCount": 3
+    "summary": "22 requests • 710.9 KiB",
+    "total": 728012,
+    "image": 8957,
+    "imageCount": 2,
+    "script": 115975,
+    "scriptCount": 9,
+    "document": 100057,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 594168,
+    "thirdPartyCount": 1
   },
   "run": {
     "number": 1,
     "total": 1
   },
   "sidequests": {
-    "-weight.total": 7,
-    "+weight.total": 3,
-    "-weight.document": 6,
-    "+weight.document": 4,
-    "-weight.script": 6,
-    "+weight.script": 3,
-    "-weight.image": 8,
+    "-weight.total": 3,
+    "+weight.total": 2,
+    "-weight.document": 3,
+    "+weight.document": 2,
+    "-weight.script": 3,
+    "+weight.script": 2,
+    "-weight.image": 3,
     "+weight.image": 2,
-    "-weight.font": 7,
-    "+weight.font": 3,
-    "+weight.fontCount": 2,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 1
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 683,
-    "violations": 1
+    "passes": 58,
+    "violations": 4
   },
   "previousRanks": {
-    "hundos": 1,
-    "performance": 1,
-    "accessibility": 5,
-    "cumulative": 1
+    "hundos": 5,
+    "performance": 5,
+    "accessibility": 1,
+    "cumulative": 5
   }
 }

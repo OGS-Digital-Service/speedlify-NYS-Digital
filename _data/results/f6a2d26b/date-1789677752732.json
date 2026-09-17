@@ -1,0 +1,66 @@
+{
+  "url": "https://ogs.ny.gov/design-construction",
+  "requestedUrl": "https://ogs.ny.gov/design-construction",
+  "timestamp": 1789677848866,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.82,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.4,
+    "total": 311
+  },
+  "firstContentfulPaint": 933.5740000000001,
+  "speedIndex": 933.5740000000001,
+  "largestContentfulPaint": 2860.9170000000004,
+  "totalBlockingTime": 528.5000000000002,
+  "cumulativeLayoutShift": 0.0024883577894994654,
+  "timeToInteractive": 3061.6670000000004,
+  "maxPotentialFirstInputDelay": 333.0000000000002,
+  "timeToFirstByte": 13.976,
+  "weight": {
+    "summary": "20 requests • 705.3 KiB",
+    "total": 722192,
+    "image": 10187,
+    "imageCount": 2,
+    "script": 109533,
+    "scriptCount": 9,
+    "document": 96923,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 595065,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 5,
+    "-weight.document": 2,
+    "+weight.document": 4,
+    "-weight.script": 1,
+    "+weight.script": 5,
+    "-weight.image": 5,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 58,
+    "violations": 4
+  }
+}

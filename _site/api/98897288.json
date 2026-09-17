@@ -1,42 +1,42 @@
 {
   "url": "https://digital.ny.gov/",
   "requestedUrl": "https://digital.ny.gov/",
-  "timestamp": 1774896057304,
+  "timestamp": 1789678319071,
   "ranks": {
-    "hundos": 4,
-    "performance": 5,
-    "accessibility": 4,
-    "cumulative": 4
+    "hundos": 1,
+    "performance": 3,
+    "accessibility": 5,
+    "cumulative": 1
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.76,
+    "performance": 0.92,
     "accessibility": 1,
-    "bestPractices": 0.96,
+    "bestPractices": 0.93,
     "seo": 1,
-    "total": 372
+    "total": 385
   },
-  "firstContentfulPaint": 1609.0845,
-  "speedIndex": 1609.0845,
-  "largestContentfulPaint": 6674.214000000002,
+  "firstContentfulPaint": 2634.9555,
+  "speedIndex": 2634.9555,
+  "largestContentfulPaint": 2784.9555,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.008452317854395722,
-  "timeToInteractive": 6674.214000000002,
+  "cumulativeLayoutShift": 0.00912850328274738,
+  "timeToInteractive": 2784.9555,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 34.432,
+  "timeToFirstByte": 20.663000000000004,
   "weight": {
-    "summary": "18 requests • 1 MiB",
-    "total": 1067290,
-    "image": 691441,
+    "summary": "18 requests • 370.4 KiB",
+    "total": 379264,
+    "image": 0,
     "imageCount": 4,
-    "script": 17073,
+    "script": 20353,
     "scriptCount": 1,
-    "document": 3192,
-    "font": 333527,
+    "document": 3213,
+    "font": 333645,
     "fontCount": 5,
-    "stylesheet": 16219,
+    "stylesheet": 16234,
     "stylesheetCount": 5,
-    "thirdParty": 54565,
+    "thirdParty": 57845,
     "thirdPartyCount": 2
   },
   "run": {
@@ -44,29 +44,29 @@
     "total": 1
   },
   "sidequests": {
-    "-weight.total": 4,
-    "+weight.total": 6,
+    "-weight.total": 2,
+    "+weight.total": 8,
     "-weight.document": 2,
     "+weight.document": 8,
     "-weight.script": 1,
     "+weight.script": 8,
-    "-weight.image": 6,
-    "+weight.image": 4,
+    "-weight.image": 1,
+    "+weight.image": 7,
     "-weight.font": 4,
-    "+weight.font": 6,
-    "+weight.fontCount": 4,
-    "-timeToFirstByte": 7,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 131,
     "violations": 0
   },
   "previousRanks": {
-    "hundos": 3,
+    "hundos": 1,
     "performance": 3,
-    "accessibility": 3,
-    "cumulative": 3
+    "accessibility": 5,
+    "cumulative": 1
   }
 }

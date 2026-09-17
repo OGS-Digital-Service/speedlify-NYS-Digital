@@ -1,72 +1,72 @@
 {
   "url": "https://www.governor.ny.gov/",
   "requestedUrl": "https://www.governor.ny.gov/",
-  "timestamp": 1774896032700,
+  "timestamp": 1789678295980,
   "ranks": {
-    "hundos": 6,
-    "performance": 6,
+    "hundos": 8,
+    "performance": 5,
     "accessibility": 8,
-    "cumulative": 6
+    "cumulative": 8
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.75,
-    "accessibility": 0.96,
-    "bestPractices": 1,
-    "seo": 0.92,
-    "total": 363
+    "performance": 0.81,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.4,
+    "total": 310
   },
-  "firstContentfulPaint": 1553.322,
-  "speedIndex": 1553.322,
-  "largestContentfulPaint": 8596.795999999998,
-  "totalBlockingTime": 18.5,
-  "cumulativeLayoutShift": 0.0002601147336481746,
-  "timeToInteractive": 8612.107899999999,
-  "maxPotentialFirstInputDelay": 87,
-  "timeToFirstByte": 44.881,
+  "firstContentfulPaint": 943.4200000000001,
+  "speedIndex": 943.4200000000001,
+  "largestContentfulPaint": 2890.666,
+  "totalBlockingTime": 549.5,
+  "cumulativeLayoutShift": 0.0017028623582519384,
+  "timeToInteractive": 3089.2160000000003,
+  "maxPotentialFirstInputDelay": 345,
+  "timeToFirstByte": 12.657,
   "weight": {
-    "summary": "38 requests • 2.1 MiB",
-    "total": 2176609,
-    "image": 1019876,
-    "imageCount": 10,
-    "script": 426870,
-    "scriptCount": 13,
-    "document": 10676,
-    "font": 602227,
-    "fontCount": 8,
-    "stylesheet": 115930,
-    "stylesheetCount": 4,
-    "thirdParty": 282128,
-    "thirdPartyCount": 2
+    "summary": "20 requests • 700.3 KiB",
+    "total": 717152,
+    "image": 7524,
+    "imageCount": 2,
+    "script": 109647,
+    "scriptCount": 9,
+    "document": 97468,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 589710,
+    "thirdPartyCount": 1
   },
   "run": {
     "number": 1,
     "total": 1
   },
   "sidequests": {
-    "-weight.total": 6,
-    "+weight.total": 4,
-    "-weight.document": 5,
-    "+weight.document": 5,
+    "-weight.total": 5,
+    "+weight.total": 5,
+    "-weight.document": 8,
+    "+weight.document": 2,
     "-weight.script": 4,
     "+weight.script": 5,
-    "-weight.image": 7,
-    "+weight.image": 3,
-    "-weight.font": 8,
-    "+weight.font": 2,
-    "+weight.fontCount": 2,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 6
+    "-weight.image": 3,
+    "+weight.image": 4,
+    "-weight.font": 1,
+    "+weight.font": 8,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 484,
-    "violations": 1
+    "passes": 58,
+    "violations": 4
   },
   "previousRanks": {
-    "hundos": 4,
-    "performance": 4,
-    "accessibility": 6,
-    "cumulative": 4
+    "hundos": 8,
+    "performance": 5,
+    "accessibility": 8,
+    "cumulative": 8
   }
 }

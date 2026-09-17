@@ -1,72 +1,72 @@
 {
   "url": "https://environmentalbondact.ny.gov/",
   "requestedUrl": "https://environmentalbondact.ny.gov/",
-  "timestamp": 1774896043863,
+  "timestamp": 1789678305313,
   "ranks": {
-    "hundos": 7,
-    "performance": 9,
+    "hundos": 6,
+    "performance": 8,
     "accessibility": 2,
-    "cumulative": 7
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.36,
+    "performance": 0.46,
     "accessibility": 1,
-    "bestPractices": 0.96,
+    "bestPractices": 0.75,
     "seo": 1,
-    "total": 332
+    "total": 321
   },
-  "firstContentfulPaint": 13237.8985,
-  "speedIndex": 16220.559105356155,
-  "largestContentfulPaint": 28837.398500000003,
-  "totalBlockingTime": 416.5,
-  "cumulativeLayoutShift": 0.19469360353153012,
-  "timeToInteractive": 33177.88605,
-  "maxPotentialFirstInputDelay": 282,
-  "timeToFirstByte": 142.245,
+  "firstContentfulPaint": 11404.550499999998,
+  "speedIndex": 11404.550499999998,
+  "largestContentfulPaint": 17139.739499999996,
+  "totalBlockingTime": 394.4999999999982,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 17146.145399999994,
+  "maxPotentialFirstInputDelay": 201,
+  "timeToFirstByte": 129.197,
   "weight": {
-    "summary": "129 requests • 6.5 MiB",
-    "total": 6819693,
-    "image": 3735971,
-    "imageCount": 11,
-    "script": 2648316,
-    "scriptCount": 66,
-    "document": 36599,
-    "font": 81783,
+    "summary": "122 requests • 2.6 MiB",
+    "total": 2755996,
+    "image": 59,
+    "imageCount": 9,
+    "script": 2330752,
+    "scriptCount": 68,
+    "document": 34290,
+    "font": 82037,
     "fontCount": 4,
-    "stylesheet": 156648,
+    "stylesheet": 126679,
     "stylesheetCount": 6,
-    "thirdParty": 3046083,
-    "thirdPartyCount": 7
+    "thirdParty": 2721600,
+    "thirdPartyCount": 6
   },
   "run": {
     "number": 1,
     "total": 1
   },
   "sidequests": {
-    "-weight.total": 9,
-    "+weight.total": 1,
-    "-weight.document": 8,
-    "+weight.document": 2,
+    "-weight.total": 8,
+    "+weight.total": 2,
+    "-weight.document": 6,
+    "+weight.document": 4,
     "-weight.script": 8,
     "+weight.script": 1,
-    "-weight.image": 9,
-    "+weight.image": 1,
+    "-weight.image": 1,
+    "+weight.image": 6,
     "-weight.font": 2,
-    "+weight.font": 8,
-    "+weight.fontCount": 5,
-    "-timeToFirstByte": 9,
-    "-totalBlockingTime": 4,
+    "+weight.font": 6,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 740,
+    "passes": 653,
     "violations": 0
   },
   "previousRanks": {
-    "hundos": 5,
-    "performance": 7,
+    "hundos": 6,
+    "performance": 8,
     "accessibility": 2,
-    "cumulative": 5
+    "cumulative": 6
   }
 }

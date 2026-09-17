@@ -4,18 +4,20 @@
     "url": "https://ogs.ny.gov/",
     "hash": "15890389",
     "categories": [
-      "digital-sites"
+      "digital-sites",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
-  "https://www.ny.gov/": {
-    "requestedUrl": "https://www.ny.gov/",
+  "https://ny.gov/": {
+    "requestedUrl": "https://ny.gov/",
     "url": "https://www.ny.gov/",
     "hash": "31547785",
     "categories": [
+      "digital-sites",
       "ogs"
     ],
-    "vertical": "ogs"
+    "vertical": "digital-sites"
   },
   "https://digital.ny.gov/": {
     "requestedUrl": "https://digital.ny.gov/",
@@ -23,7 +25,8 @@
     "hash": "98897288",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -33,47 +36,19 @@
     "hash": "1003e3bc",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
-  "https://online2.ogs.ny.gov/greencleaning/": {
-    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
-    "url": "https://online2.ogs.ny.gov/greencleaning/",
-    "hash": "5bbda1ab",
+  "https://www.governor.ny.gov/news": {
+    "requestedUrl": "https://www.governor.ny.gov/news",
+    "url": "https://www.governor.ny.gov/news",
+    "hash": "2cbc8de",
     "categories": [
       "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://nys-digital-standards-report-cards.netlify.app/": {
-    "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
-    "url": "https://nys-digital-standards-report-cards.netlify.app/",
-    "hash": "5c6d4c40",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
-    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "hash": "5d86bcc2",
-    "categories": [
-      "digital-sites",
-      "ogs"
-    ],
-    "vertical": "digital-sites"
-  },
-  "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list": {
-    "requestedUrl": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
-    "url": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
-    "hash": "6917627c",
-    "categories": [
-      "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -83,7 +58,8 @@
     "hash": "36bfff17",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -93,7 +69,41 @@
     "hash": "597dddd1",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://online2.ogs.ny.gov/greencleaning/": {
+    "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
+    "url": "https://online2.ogs.ny.gov/greencleaning/",
+    "hash": "5bbda1ab",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://nys-digital-standards-report-cards.netlify.app/": {
+    "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
+    "url": "https://nys-digital-standards-report-cards.netlify.app/",
+    "hash": "5c6d4c40",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list": {
+    "requestedUrl": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+    "url": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+    "hash": "6917627c",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -103,17 +113,46 @@
     "hash": "70c70541",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
-  "https://environmentalbondact.ny.gov/": {
-    "requestedUrl": "https://environmentalbondact.ny.gov/",
-    "url": "https://environmentalbondact.ny.gov/",
-    "hash": "f212ebdb",
+  "undefined": {
+    "url": "https://nygovd8devbox1.prod.acquia-sites.com/",
+    "hash": "fe5ae5a0",
+    "categories": []
+  },
+  "https://www.ny.gov/services": {
+    "requestedUrl": "https://www.ny.gov/services",
+    "url": "https://www.ny.gov/services",
+    "hash": "972d2fab",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
+    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "hash": "5d86bcc2",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://www.ny.gov/services/apply-snap": {
+    "requestedUrl": "https://www.ny.gov/services/apply-snap",
+    "url": "https://www.ny.gov/services/apply-snap",
+    "hash": "db7d7af1",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -123,7 +162,19 @@
     "hash": "edbae06e",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://environmentalbondact.ny.gov/": {
+    "requestedUrl": "https://environmentalbondact.ny.gov/",
+    "url": "https://environmentalbondact.ny.gov/",
+    "hash": "f212ebdb",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   },
@@ -133,7 +184,19 @@
     "hash": "f6a2d26b",
     "categories": [
       "digital-sites",
-      "ogs"
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://www.ny.gov/programs": {
+    "requestedUrl": "https://www.ny.gov/programs",
+    "url": "https://www.ny.gov/programs",
+    "hash": "fc79f582",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
     ],
     "vertical": "digital-sites"
   }

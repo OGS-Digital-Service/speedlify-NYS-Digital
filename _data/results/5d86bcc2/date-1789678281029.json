@@ -1,0 +1,66 @@
+{
+  "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+  "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+  "timestamp": 1789678326417,
+  "ranks": {
+    "hundos": 5,
+    "performance": 7,
+    "accessibility": 9,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.52,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.82,
+    "total": 326
+  },
+  "firstContentfulPaint": 6531.132,
+  "speedIndex": 6531.132,
+  "largestContentfulPaint": 15479.627000000004,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.16988014463135304,
+  "timeToInteractive": 18499.827999999998,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 29.555,
+  "weight": {
+    "summary": "68 requests • 3 MiB",
+    "total": 3100595,
+    "image": 588695,
+    "imageCount": 15,
+    "script": 588667,
+    "scriptCount": 10,
+    "document": 20437,
+    "font": 918280,
+    "fontCount": 12,
+    "stylesheet": 959168,
+    "stylesheetCount": 18,
+    "thirdParty": 395066,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 9,
+    "+weight.total": 1,
+    "-weight.document": 5,
+    "+weight.document": 5,
+    "-weight.script": 7,
+    "+weight.script": 2,
+    "-weight.image": 6,
+    "+weight.image": 1,
+    "-weight.font": 7,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 8
+  },
+  "axe": {
+    "passes": 466,
+    "violations": 26
+  }
+}

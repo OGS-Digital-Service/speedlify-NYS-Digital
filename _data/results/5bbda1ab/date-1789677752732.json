@@ -1,0 +1,66 @@
+{
+  "url": "https://online2.ogs.ny.gov/greencleaning/",
+  "requestedUrl": "https://online2.ogs.ny.gov/greencleaning/",
+  "timestamp": 1789677806787,
+  "ranks": {
+    "hundos": 7,
+    "performance": 9,
+    "accessibility": 1,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.45,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 0.8,
+    "total": 321
+  },
+  "firstContentfulPaint": 9209.637,
+  "speedIndex": 9209.637,
+  "largestContentfulPaint": 11477.474000000002,
+  "totalBlockingTime": 441.27550000000065,
+  "cumulativeLayoutShift": 0.02799703524209822,
+  "timeToInteractive": 13044.862950000006,
+  "maxPotentialFirstInputDelay": 569,
+  "timeToFirstByte": 21.412,
+  "weight": {
+    "summary": "31 requests • 2 MiB",
+    "total": 2084842,
+    "image": 1064,
+    "imageCount": 3,
+    "script": 751991,
+    "scriptCount": 7,
+    "document": 952760,
+    "font": 282353,
+    "fontCount": 4,
+    "stylesheet": 71399,
+    "stylesheetCount": 4,
+    "thirdParty": 359672,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 7,
+    "+weight.total": 3,
+    "-weight.document": 9,
+    "+weight.document": 1,
+    "-weight.script": 7,
+    "+weight.script": 2,
+    "-weight.image": 1,
+    "+weight.image": 5,
+    "-weight.font": 3,
+    "+weight.font": 5,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 7
+  },
+  "axe": {
+    "passes": 939,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+  "requestedUrl": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+  "timestamp": 1789677855470,
+  "ranks": {
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.82,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.4,
+    "total": 311
+  },
+  "firstContentfulPaint": 936.104,
+  "speedIndex": 936.104,
+  "largestContentfulPaint": 2917.379,
+  "totalBlockingTime": 517.5,
+  "cumulativeLayoutShift": 0.0024883577894994654,
+  "timeToInteractive": 3117.029,
+  "maxPotentialFirstInputDelay": 337,
+  "timeToFirstByte": 16.852,
+  "weight": {
+    "summary": "20 requests • 705.8 KiB",
+    "total": 722787,
+    "image": 6460,
+    "imageCount": 2,
+    "script": 114206,
+    "scriptCount": 9,
+    "document": 97403,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 590913,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 4,
+    "-weight.document": 3,
+    "+weight.document": 3,
+    "-weight.script": 2,
+    "+weight.script": 4,
+    "-weight.image": 1,
+    "+weight.image": 5,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 58,
+    "violations": 4
+  }
+}
