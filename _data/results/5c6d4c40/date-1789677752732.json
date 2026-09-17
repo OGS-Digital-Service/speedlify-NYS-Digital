@@ -1,42 +1,42 @@
 {
   "url": "https://nys-digital-standards-report-cards.netlify.app/",
   "requestedUrl": "https://nys-digital-standards-report-cards.netlify.app/",
-  "timestamp": 1789678348273,
+  "timestamp": 1789677821362,
   "ranks": {
-    "hundos": 4,
-    "performance": 2,
+    "hundos": 3,
+    "performance": 1,
     "accessibility": 6,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.94,
+    "performance": 0.99,
     "accessibility": 1,
     "bestPractices": 0.75,
     "seo": 1,
-    "total": 369
+    "total": 374
   },
-  "firstContentfulPaint": 2543.884,
-  "speedIndex": 2543.884,
-  "largestContentfulPaint": 2543.884,
+  "firstContentfulPaint": 1705.6080000000002,
+  "speedIndex": 1963.4597659994856,
+  "largestContentfulPaint": 1705.6080000000002,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.0004049458289812753,
-  "timeToInteractive": 2543.884,
+  "timeToInteractive": 1705.6080000000002,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 528.6320000000001,
+  "timeToFirstByte": 680.0799999999999,
   "weight": {
-    "summary": "15 requests • 73.2 KiB",
-    "total": 74913,
+    "summary": "15 requests • 72.9 KiB",
+    "total": 74697,
     "image": 0,
     "imageCount": 4,
-    "script": 20396,
+    "script": 20470,
     "scriptCount": 2,
-    "document": 2890,
+    "document": 2875,
     "font": 35888,
     "fontCount": 1,
-    "stylesheet": 13893,
+    "stylesheet": 13619,
     "stylesheetCount": 5,
-    "thirdParty": 57844,
+    "thirdParty": 57845,
     "thirdPartyCount": 3
   },
   "run": {
@@ -51,22 +51,16 @@
     "-weight.script": 2,
     "+weight.script": 7,
     "-weight.image": 1,
-    "+weight.image": 7,
+    "+weight.image": 6,
     "-weight.font": 1,
     "+weight.font": 7,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 8,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 2
+    "-largestContentfulPaint": 1
   },
   "axe": {
     "passes": 100,
     "violations": 0
-  },
-  "previousRanks": {
-    "hundos": 3,
-    "performance": 1,
-    "accessibility": 6,
-    "cumulative": 3
   }
 }

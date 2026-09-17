@@ -6,7 +6,9 @@ module.exports = {
 		frequency: 1, // (in minutes)
 	},
 	urls: [
-		"https://nygovd8devbox2.prod.acquia-sites.com/",
-		"https://nygovd8devbox1.prod.acquia-sites.com/"
+		"https://ny.gov/",
+		"https://www.ny.gov/services/apply-snap",
+		"https://www.ny.gov/programs",
+		"https://www.ny.gov/services"
 	]
 };

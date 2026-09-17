@@ -9,15 +9,15 @@
     ],
     "vertical": "digital-sites"
   },
-  "https://www.ny.gov/": {
-    "requestedUrl": "https://www.ny.gov/",
+  "https://ny.gov/": {
+    "requestedUrl": "https://ny.gov/",
     "url": "https://www.ny.gov/",
     "hash": "31547785",
     "categories": [
-      "ogs",
-      "reimagine-sites"
+      "digital-sites",
+      "ogs"
     ],
-    "vertical": "ogs"
+    "vertical": "digital-sites"
   },
   "https://digital.ny.gov/": {
     "requestedUrl": "https://digital.ny.gov/",
@@ -34,6 +34,17 @@
     "requestedUrl": "https://nys-digital-service.netlify.app/",
     "url": "https://nys-digital-service.netlify.app/",
     "hash": "1003e3bc",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://www.governor.ny.gov/news": {
+    "requestedUrl": "https://www.governor.ny.gov/news",
+    "url": "https://www.governor.ny.gov/news",
+    "hash": "2cbc8de",
     "categories": [
       "digital-sites",
       "ogs",
@@ -85,17 +96,6 @@
     ],
     "vertical": "digital-sites"
   },
-  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
-    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
-    "hash": "5d86bcc2",
-    "categories": [
-      "digital-sites",
-      "ogs",
-      "reimagine-sites"
-    ],
-    "vertical": "digital-sites"
-  },
   "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list": {
     "requestedUrl": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
     "url": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
@@ -118,6 +118,44 @@
     ],
     "vertical": "digital-sites"
   },
+  "undefined": {
+    "url": "https://nygovd8devbox1.prod.acquia-sites.com/",
+    "hash": "fe5ae5a0",
+    "categories": []
+  },
+  "https://www.ny.gov/services": {
+    "requestedUrl": "https://www.ny.gov/services",
+    "url": "https://www.ny.gov/services",
+    "hash": "972d2fab",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov": {
+    "requestedUrl": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "url": "https://omh.ny.gov/omhweb/crisis/988.html?utm_medium=301&utm_source=988.ny.gov",
+    "hash": "5d86bcc2",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://www.ny.gov/services/apply-snap": {
+    "requestedUrl": "https://www.ny.gov/services/apply-snap",
+    "url": "https://www.ny.gov/services/apply-snap",
+    "hash": "db7d7af1",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
   "https://digital-service-analytics.netlify.app/": {
     "requestedUrl": "https://digital-service-analytics.netlify.app/",
     "url": "https://digital-service-analytics.netlify.app/",
@@ -128,11 +166,6 @@
       "reimagine-sites"
     ],
     "vertical": "digital-sites"
-  },
-  "undefined": {
-    "url": "https://nygovd8devbox1.prod.acquia-sites.com/",
-    "hash": "fe5ae5a0",
-    "categories": []
   },
   "https://environmentalbondact.ny.gov/": {
     "requestedUrl": "https://environmentalbondact.ny.gov/",
@@ -149,6 +182,17 @@
     "requestedUrl": "https://ogs.ny.gov/design-construction",
     "url": "https://ogs.ny.gov/design-construction",
     "hash": "f6a2d26b",
+    "categories": [
+      "digital-sites",
+      "ogs",
+      "reimagine-sites"
+    ],
+    "vertical": "digital-sites"
+  },
+  "https://www.ny.gov/programs": {
+    "requestedUrl": "https://www.ny.gov/programs",
+    "url": "https://www.ny.gov/programs",
+    "hash": "fc79f582",
     "categories": [
       "digital-sites",
       "ogs",

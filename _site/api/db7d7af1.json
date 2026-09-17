@@ -1,0 +1,72 @@
+{
+  "url": "https://www.ny.gov/services/apply-snap",
+  "requestedUrl": "https://www.ny.gov/services/apply-snap",
+  "timestamp": 1789678416894,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 2,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.82,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.4,
+    "total": 311
+  },
+  "firstContentfulPaint": 933.664,
+  "speedIndex": 1099.2017300007035,
+  "largestContentfulPaint": 2889.129,
+  "totalBlockingTime": 520,
+  "cumulativeLayoutShift": 0.0027291666078381235,
+  "timeToInteractive": 2889.129,
+  "maxPotentialFirstInputDelay": 353,
+  "timeToFirstByte": 12.456,
+  "weight": {
+    "summary": "20 requests • 711.7 KiB",
+    "total": 728817,
+    "image": 6478,
+    "imageCount": 2,
+    "script": 114820,
+    "scriptCount": 9,
+    "document": 101322,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 596472,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 4,
+    "+weight.total": 1,
+    "-weight.document": 4,
+    "+weight.document": 1,
+    "-weight.script": 2,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 4,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 58,
+    "violations": 4
+  },
+  "previousRanks": {
+    "hundos": 1,
+    "performance": 3,
+    "accessibility": 2,
+    "cumulative": 1
+  }
+}

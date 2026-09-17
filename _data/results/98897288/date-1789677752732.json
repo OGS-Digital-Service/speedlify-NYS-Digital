@@ -1,7 +1,7 @@
 {
   "url": "https://digital.ny.gov/",
   "requestedUrl": "https://digital.ny.gov/",
-  "timestamp": 1789678319071,
+  "timestamp": 1789677791761,
   "ranks": {
     "hundos": 1,
     "performance": 3,
@@ -10,29 +10,29 @@
   },
   "lighthouse": {
     "version": "12.8.2",
-    "performance": 0.92,
+    "performance": 0.94,
     "accessibility": 1,
     "bestPractices": 0.93,
     "seo": 1,
-    "total": 385
+    "total": 387
   },
-  "firstContentfulPaint": 2634.9555,
-  "speedIndex": 2634.9555,
-  "largestContentfulPaint": 2784.9555,
+  "firstContentfulPaint": 2531.022,
+  "speedIndex": 2531.022,
+  "largestContentfulPaint": 2531.022,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.00912850328274738,
-  "timeToInteractive": 2784.9555,
+  "timeToInteractive": 2531.022,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 20.663000000000004,
+  "timeToFirstByte": 60.565,
   "weight": {
-    "summary": "18 requests • 370.4 KiB",
-    "total": 379264,
+    "summary": "18 requests • 370.3 KiB",
+    "total": 379205,
     "image": 0,
     "imageCount": 4,
     "script": 20353,
     "scriptCount": 1,
     "document": 3213,
-    "font": 333645,
+    "font": 333589,
     "fontCount": 5,
     "stylesheet": 16234,
     "stylesheetCount": 5,
@@ -51,22 +51,16 @@
     "-weight.script": 1,
     "+weight.script": 8,
     "-weight.image": 1,
-    "+weight.image": 7,
+    "+weight.image": 6,
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 131,
     "violations": 0
-  },
-  "previousRanks": {
-    "hundos": 1,
-    "performance": 3,
-    "accessibility": 5,
-    "cumulative": 1
   }
 }
